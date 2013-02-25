@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_header_color"
+        android:clickable="true"
+        android:onClick="onPageTitleClick" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:id="@+id/forumDisplayKanxueTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/kanxue_title"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/forumDisplayBackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/normal_action_btn"
+                android:onClick="onBackBtnClick"
+                android:padding="10dp"
+                android:src="@drawable/navigation_back" />
+
+            <ImageView
+                android:id="@+id/forumDisplaySeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/segmentation" />
+
+            <TextView
+                android:id="@+id/forumDisplayPageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <ImageButton
+                android:id="@+id/forumDisplayNewThreadBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/normal_action_btn"
+                android:onClick="onNewThreadBtnClick"
+                android:padding="10dp"
+                android:src="@drawable/edit" />
+
+            <com.pediy.bbs.kanxue.widget.RefreshActionBtn
+                android:id="@+id/forumDisplayRefreshBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/normal_action_btn"
+                android:onClick="onRefreshBtnClick"
+                android:padding="10dp"
+                android:src="@drawable/navigation_refresh" >
+
+            </com.pediy.bbs.kanxue.widget.RefreshActionBtn>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <com.pediy.bbs.kanxue.widget.XListView
+            android:id="@+id/forumDisplayListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="5dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:listSelector="@color/white" >
+
+        </com.pediy.bbs.kanxue.widget.XListView>
+
+        <ProgressBar
+            android:id="@+id/forumDisplayProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/forum_item" >
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1" >
+	
+	        <com.pediy.bbs.kanxue.widget.ImageViewWithCache
+	            android:id="@+id/showthreadHeadImg"
+	            android:layout_width="40dp"
+	            android:layout_height="40dp"
+	            android:scaleType="centerCrop"
+	            android:src="@drawable/default_user_head_img" />
+	
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:layout_marginLeft="10dp"
+	            android:orientation="vertical" >
+	
+	            <LinearLayout
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1" >
+	
+	                <TextView
+	                    android:id="@+id/showthreadUsername"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="1"
+	                    android:textStyle="bold" />
+	
+	                <TextView
+	                    android:id="@+id/showThreadFloorNum"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="1#" />
+	
+	            </LinearLayout>
+	
+	            <TextView
+	                android:id="@+id/showthreadPosttime"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gray"
+	                android:textSize="10sp" />
+	
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/hsegmentation" />
+	
+	    <TextView
+	        android:id="@+id/showthreadMsg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="10dp"
+	        android:textSize="16sp" />
+	
+	    <com.pediy.bbs.kanxue.widget.ThreadItemFooter
+	        android:id="@+id/showthreadLoadTip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:visibility="gone" >
+	    </com.pediy.bbs.kanxue.widget.ThreadItemFooter>
+	
+	    <LinearLayout
+	        android:id="@+id/showthreadAttachment"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="16dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/attament_bg"
+	        android:orientation="vertical"
+	        android:visibility="gone" >
+	
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="附件:" />
+	
+	        <LinearLayout
+	            android:id="@+id/showThreadImgAttachmentList"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/showThreadOtherAttachmentList"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+	        </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_header_color">#E2E7EE</color>
+    <color name="tab_color_bg">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="title_header_color">#40567E</color>
+    <color name="forum_display_item_title_color">#22229C</color>
+    <color name="title_header_color_dark">#25334B</color>
+    <color name="title_header_color_light">#6E88B6</color>
+    <color name="item_pressed">#E5E5E5</color>
+    <color name="quick_reply_btn_pressed">#E5E5E5</color>
+    <color name="gray">#808080</color>
+    <color name="transparent">#00000000</color>
+    
+</resources>
