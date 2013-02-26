@@ -59216,7 +59216,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 287):
+Constant Pool (count = 268):
   + Integer [32768]
   + Integer [268435456]
   + String [.]
@@ -59238,13 +59238,10 @@ Constant Pool (count = 287):
   + Class [android/content/pm/PackageManager$NameNotFoundException]
   + Class [android/net/Uri]
   + Class [android/os/Environment]
-  + Class [android/preference/PreferenceManager]
   + Class [com/pediy/bbs/kanxue/App]
   + Class [com/pediy/bbs/kanxue/a]
   + Class [com/pediy/bbs/kanxue/a/a]
   + Class [com/pediy/bbs/kanxue/b]
-  + Class [com/pediy/bbs/kanxue/b/a]
-  + Class [com/pediy/bbs/kanxue/b/b]
   + Class [com/pediy/bbs/kanxue/c]
   + Class [com/pediy/bbs/kanxue/g]
   + Class [java/io/File]
@@ -59281,7 +59278,6 @@ Constant Pool (count = 287):
   + Methodref [android/net/Uri.fromFile (Ljava/io/File;)Landroid/net/Uri;]
   + Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
   + Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
-  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + Methodref [com/pediy/bbs/kanxue/App.a (I)Ljava/lang/String;]
   + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;I)Landroid/app/ProgressDialog;]
   + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
@@ -59293,12 +59289,9 @@ Constant Pool (count = 287):
   + Methodref [com/pediy/bbs/kanxue/App.startActivity (Landroid/content/Intent;)V]
   + Methodref [com/pediy/bbs/kanxue/a.<init> (Lcom/pediy/bbs/kanxue/App;)V]
   + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-  + Methodref [com/pediy/bbs/kanxue/a/a.a (Landroid/content/SharedPreferences;)V]
-  + Methodref [com/pediy/bbs/kanxue/a/a.a (Lcom/pediy/bbs/kanxue/b/a;)V]
+  + Methodref [com/pediy/bbs/kanxue/a/a.a (Landroid/content/Context;)V]
   + Methodref [com/pediy/bbs/kanxue/a/a.c (Lcom/pediy/bbs/kanxue/a/e;)V]
   + Methodref [com/pediy/bbs/kanxue/b.<init> (Lcom/pediy/bbs/kanxue/App;)V]
-  + Methodref [com/pediy/bbs/kanxue/b/a.<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
-  + Methodref [com/pediy/bbs/kanxue/b/b.<init> (Landroid/content/SharedPreferences;)V]
   + Methodref [com/pediy/bbs/kanxue/c.<init> (Lcom/pediy/bbs/kanxue/App;Lcom/pediy/bbs/kanxue/h;Landroid/content/Context;)V]
   + Methodref [com/pediy/bbs/kanxue/g.<init> (Lcom/pediy/bbs/kanxue/App;)V]
   + Methodref [java/io/File.<init> (Ljava/lang/String;)V]
@@ -59320,19 +59313,16 @@ Constant Pool (count = 287):
   + Methodref [java/lang/System.setErr (Ljava/io/PrintStream;)V]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Landroid/content/Context;)V]
-  + NameAndType [<init> (Landroid/content/SharedPreferences;)V]
   + NameAndType [<init> (Lcom/pediy/bbs/kanxue/App;)V]
   + NameAndType [<init> (Lcom/pediy/bbs/kanxue/App;Lcom/pediy/bbs/kanxue/h;Landroid/content/Context;)V]
-  + NameAndType [<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
   + NameAndType [<init> (Ljava/io/OutputStream;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/lang/String;Z)V]
   + NameAndType [a ()Lcom/pediy/bbs/kanxue/a/a;]
   + NameAndType [a (I)Ljava/lang/String;]
+  + NameAndType [a (Landroid/content/Context;)V]
   + NameAndType [a (Landroid/content/Context;I)Landroid/app/ProgressDialog;]
   + NameAndType [a (Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
-  + NameAndType [a (Landroid/content/SharedPreferences;)V]
-  + NameAndType [a (Lcom/pediy/bbs/kanxue/b/a;)V]
   + NameAndType [a Ljava/lang/String;]
   + NameAndType [append (I)Ljava/lang/StringBuilder;]
   + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
@@ -59349,7 +59339,6 @@ Constant Pool (count = 287):
   + NameAndType [f Landroid/os/Handler;]
   + NameAndType [fromFile (Ljava/io/File;)Landroid/net/Uri;]
   + NameAndType [g Landroid/os/Handler;]
-  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + NameAndType [getExternalStorageDirectory ()Ljava/io/File;]
   + NameAndType [getExternalStorageState ()Ljava/lang/String;]
   + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
@@ -59387,12 +59376,10 @@ Constant Pool (count = 287):
   + Utf8 [(I)Ljava/lang/StringBuilder;]
   + Utf8 [(I)V]
   + Utf8 [(II)Ljava/lang/String;]
-  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + Utf8 [(Landroid/content/Context;)V]
   + Utf8 [(Landroid/content/Context;I)Landroid/app/ProgressDialog;]
   + Utf8 [(Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
   + Utf8 [(Landroid/content/Intent;)V]
-  + Utf8 [(Landroid/content/SharedPreferences;)V]
   + Utf8 [(Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;]
   + Utf8 [(Lcom/pediy/bbs/kanxue/App;)I]
   + Utf8 [(Lcom/pediy/bbs/kanxue/App;)Landroid/app/ProgressDialog;]
@@ -59407,8 +59394,6 @@ Constant Pool (count = 287):
   + Utf8 [(Lcom/pediy/bbs/kanxue/App;Ljava/lang/String;)V]
   + Utf8 [(Lcom/pediy/bbs/kanxue/App;Z)V]
   + Utf8 [(Lcom/pediy/bbs/kanxue/a/e;)V]
-  + Utf8 [(Lcom/pediy/bbs/kanxue/b/a;)V]
-  + Utf8 [(Lcom/pediy/bbs/kanxue/b/b;)V]
   + Utf8 [(Ljava/io/File;)Landroid/net/Uri;]
   + Utf8 [(Ljava/io/OutputStream;)V]
   + Utf8 [(Ljava/io/PrintStream;)V]
@@ -59446,7 +59431,6 @@ Constant Pool (count = 287):
   + Utf8 [android/content/pm/PackageManager$NameNotFoundException]
   + Utf8 [android/net/Uri]
   + Utf8 [android/os/Environment]
-  + Utf8 [android/preference/PreferenceManager]
   + Utf8 [append]
   + Utf8 [application/vnd.android.package-archive]
   + Utf8 [b]
@@ -59456,8 +59440,6 @@ Constant Pool (count = 287):
   + Utf8 [com/pediy/bbs/kanxue/a]
   + Utf8 [com/pediy/bbs/kanxue/a/a]
   + Utf8 [com/pediy/bbs/kanxue/b]
-  + Utf8 [com/pediy/bbs/kanxue/b/a]
-  + Utf8 [com/pediy/bbs/kanxue/b/b]
   + Utf8 [com/pediy/bbs/kanxue/c]
   + Utf8 [com/pediy/bbs/kanxue/g]
   + Utf8 [d]
@@ -59466,7 +59448,6 @@ Constant Pool (count = 287):
   + Utf8 [f]
   + Utf8 [fromFile]
   + Utf8 [g]
-  + Utf8 [getDefaultSharedPreferences]
   + Utf8 [getExternalStorageDirectory]
   + Utf8 [getExternalStorageState]
   + Utf8 [getPackageInfo]
@@ -59534,7 +59515,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 0, stack = 1):
       [0] ldc #9
         + String [kanxue.log]
-      [2] putstatic #41
+      [2] putstatic #38
         + Fieldref [com/pediy/bbs/kanxue/App.a Ljava/lang/String;]
       [5] return
       Code attribute exceptions (count = 0):
@@ -59545,41 +59526,41 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 49, locals = 1, stack = 4):
       [0] aload_0 v0
-      [1] invokespecial #48
+      [1] invokespecial #45
         + Methodref [android/app/Application.<init> ()V]
       [4] aload_0 v0
       [5] iconst_0
-      [6] putfield #42
+      [6] putfield #39
         + Fieldref [com/pediy/bbs/kanxue/App.b I]
       [9] aload_0 v0
       [10] aconst_null
-      [11] putfield #43
+      [11] putfield #40
         + Fieldref [com/pediy/bbs/kanxue/App.c Landroid/app/ProgressDialog;]
       [14] aload_0 v0
       [15] aconst_null
-      [16] putfield #44
+      [16] putfield #41
         + Fieldref [com/pediy/bbs/kanxue/App.d Ljava/lang/String;]
       [19] aload_0 v0
       [20] iconst_0
-      [21] putfield #45
+      [21] putfield #42
         + Fieldref [com/pediy/bbs/kanxue/App.e Z]
       [24] aload_0 v0
-      [25] new #24
+      [25] new #23
         + Class [com/pediy/bbs/kanxue/a]
       [28] dup
       [29] aload_0 v0
-      [30] invokespecial #76
+      [30] invokespecial #72
         + Methodref [com/pediy/bbs/kanxue/a.<init> (Lcom/pediy/bbs/kanxue/App;)V]
-      [33] putfield #46
+      [33] putfield #43
         + Fieldref [com/pediy/bbs/kanxue/App.f Landroid/os/Handler;]
       [36] aload_0 v0
-      [37] new #26
+      [37] new #25
         + Class [com/pediy/bbs/kanxue/b]
       [40] dup
       [41] aload_0 v0
-      [42] invokespecial #81
+      [42] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/b.<init> (Lcom/pediy/bbs/kanxue/App;)V]
-      [45] putfield #47
+      [45] putfield #44
         + Fieldref [com/pediy/bbs/kanxue/App.g Landroid/os/Handler;]
       [48] return
       Code attribute exceptions (count = 0):
@@ -59588,77 +59569,56 @@ Methods (count = 23):
     Access flags: 0x1
       = public void onCreate()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 78, locals = 4, stack = 4):
+    + Code attribute instructions (code length = 49, locals = 3, stack = 3):
       [0] aload_0 v0
-      [1] invokespecial #49
+      [1] invokespecial #46
         + Methodref [android/app/Application.onCreate ()V]
-      [4] new #28
-        + Class [com/pediy/bbs/kanxue/b/b]
-      [7] dup
-      [8] aload_0 v0
-      [9] invokestatic #66
-        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
-      [12] invokespecial #83
-        + Methodref [com/pediy/bbs/kanxue/b/b.<init> (Landroid/content/SharedPreferences;)V]
-      [15] astore_1 v1
-      [16] invokestatic #77
+      [4] invokestatic #73
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [19] new #27
-        + Class [com/pediy/bbs/kanxue/b/a]
-      [22] dup
-      [23] aload_1 v1
-      [24] invokespecial #82
-        + Methodref [com/pediy/bbs/kanxue/b/a.<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
-      [27] invokevirtual #79
-        + Methodref [com/pediy/bbs/kanxue/a/a.a (Lcom/pediy/bbs/kanxue/b/a;)V]
-      [30] invokestatic #77
-        + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [33] aload_0 v0
-      [34] invokestatic #66
-        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
-      [37] invokevirtual #78
-        + Methodref [com/pediy/bbs/kanxue/a/a.a (Landroid/content/SharedPreferences;)V]
-      [40] aconst_null
-      [41] astore_2 v2
-      [42] aload_0 v0
-      [43] invokevirtual #72
+      [7] aload_0 v0
+      [8] invokevirtual #74
+        + Methodref [com/pediy/bbs/kanxue/a/a.a (Landroid/content/Context;)V]
+      [11] aconst_null
+      [12] astore_1 v1
+      [13] aload_0 v0
+      [14] invokevirtual #68
         + Methodref [com/pediy/bbs/kanxue/App.getPackageManager ()Landroid/content/pm/PackageManager;]
-      [46] aload_0 v0
-      [47] invokevirtual #73
+      [17] aload_0 v0
+      [18] invokevirtual #69
         + Methodref [com/pediy/bbs/kanxue/App.getPackageName ()Ljava/lang/String;]
-      [50] sipush 16384
-      [53] invokevirtual #61
+      [21] sipush 16384
+      [24] invokevirtual #58
         + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
-      [56] astore_2 v2
-      [57] aload_0 v0
-      [58] aload_2 v2
-      [59] getfield #40
+      [27] astore_1 v1
+      [28] aload_0 v0
+      [29] aload_1 v1
+      [30] getfield #37
         + Fieldref [android/content/pm/PackageInfo.versionCode I]
-      [62] putfield #42
+      [33] putfield #39
         + Fieldref [com/pediy/bbs/kanxue/App.b I]
-      [65] goto +8 (target=73)
-      [68] astore_3 v3
-      [69] aload_3 v3
-      [70] invokevirtual #62
+      [36] goto +8 (target=44)
+      [39] astore_2 v2
+      [40] aload_2 v2
+      [41] invokevirtual #59
         + Methodref [android/content/pm/PackageManager$NameNotFoundException.printStackTrace ()V]
-      [73] aload_0 v0
-      [74] invokespecial #70
+      [44] aload_0 v0
+      [45] invokespecial #66
         + Methodref [com/pediy/bbs/kanxue/App.b ()V]
-      [77] return
+      [48] return
       Code attribute exceptions (count = 1):
-      - ExceptionInfo (42 -> 65: 68):
+      - ExceptionInfo (13 -> 36: 39):
       + Class [android/content/pm/PackageManager$NameNotFoundException]
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 2):
-        - [68] Var: [a:com/pediy/bbs/kanxue/App][a:com/pediy/bbs/kanxue/b/b][a:android/content/pm/PackageInfo], Stack: [a:android/content/pm/PackageManager$NameNotFoundException]
-        - [73] Var: ..., Stack: (empty)
+        - [39] Var: [a:com/pediy/bbs/kanxue/App][a:android/content/pm/PackageInfo], Stack: [a:android/content/pm/PackageManager$NameNotFoundException]
+        - [44] Var: ..., Stack: (empty)
   + Method:       a()Landroid/os/Handler;
     Access flags: 0x1
       = public android.os.Handler a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #47
+      [1] getfield #44
         + Fieldref [com/pediy/bbs/kanxue/App.g Landroid/os/Handler;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -59668,13 +59628,13 @@ Methods (count = 23):
       = public void a(java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 43, locals = 4, stack = 3):
-      [0] new #31
+      [0] new #28
         + Class [java/io/File]
       [3] dup
       [4] aload_1 v1
-      [5] invokespecial #86
+      [5] invokespecial #79
         + Methodref [java/io/File.<init> (Ljava/lang/String;)V]
-      [8] invokestatic #63
+      [8] invokestatic #60
         + Methodref [android/net/Uri.fromFile (Ljava/io/File;)Landroid/net/Uri;]
       [11] astore_2 v2
       [12] new #16
@@ -59682,25 +59642,25 @@ Methods (count = 23):
       [15] dup
       [16] ldc #7
         + String [android.intent.action.VIEW]
-      [18] invokespecial #58
+      [18] invokespecial #55
         + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
       [21] astore_3 v3
       [22] aload_3 v3
       [23] ldc #2
         + Integer [268435456]
-      [25] invokevirtual #60
+      [25] invokevirtual #57
         + Methodref [android/content/Intent.setFlags (I)Landroid/content/Intent;]
       [28] pop
       [29] aload_3 v3
       [30] aload_2 v2
       [31] ldc #8
         + String [application/vnd.android.package-archive]
-      [33] invokevirtual #59
+      [33] invokevirtual #56
         + Methodref [android/content/Intent.setDataAndType (Landroid/net/Uri;Ljava/lang/String;)Landroid/content/Intent;]
       [36] pop
       [37] aload_0 v0
       [38] aload_3 v3
-      [39] invokevirtual #75
+      [39] invokevirtual #71
         + Methodref [com/pediy/bbs/kanxue/App.startActivity (Landroid/content/Intent;)V]
       [42] return
       Code attribute exceptions (count = 0):
@@ -59710,43 +59670,43 @@ Methods (count = 23):
       = private void b()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 88, locals = 4, stack = 4):
-      [0] getstatic #41
+      [0] getstatic #38
         + Fieldref [com/pediy/bbs/kanxue/App.a Ljava/lang/String;]
       [3] astore_1 v1
       [4] aconst_null
       [5] astore_2 v2
-      [6] invokestatic #65
+      [6] invokestatic #62
         + Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
       [9] ldc #10
         + String [mounted]
-      [11] invokevirtual #91
+      [11] invokevirtual #84
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [14] ifeq +42 (target=56)
-      [17] new #36
+      [17] new #33
         + Class [java/lang/StringBuilder]
       [20] dup
-      [21] invokespecial #96
+      [21] invokespecial #89
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [24] invokestatic #64
+      [24] invokestatic #61
         + Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
-      [27] invokevirtual #99
+      [27] invokevirtual #92
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
       [30] ldc #4
         + String [/kanxue/]
-      [32] invokevirtual #100
+      [32] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [35] aload_1 v1
-      [36] invokevirtual #100
+      [36] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [39] invokevirtual #101
+      [39] invokevirtual #94
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [42] astore_1 v1
-      [43] new #32
+      [43] new #29
         + Class [java/io/FileOutputStream]
       [46] dup
       [47] aload_1 v1
       [48] iconst_1
-      [49] invokespecial #87
+      [49] invokespecial #80
         + Methodref [java/io/FileOutputStream.<init> (Ljava/lang/String;Z)V]
       [52] astore_2 v2
       [53] goto +11 (target=64)
@@ -59754,24 +59714,24 @@ Methods (count = 23):
       [57] aload_1 v1
       [58] ldc #1
         + Integer [32768]
-      [60] invokevirtual #74
+      [60] invokevirtual #70
         + Methodref [com/pediy/bbs/kanxue/App.openFileOutput (Ljava/lang/String;I)Ljava/io/FileOutputStream;]
       [63] astore_2 v2
-      [64] new #34
+      [64] new #31
         + Class [java/io/PrintStream]
       [67] dup
       [68] aload_2 v2
-      [69] invokespecial #90
+      [69] invokespecial #83
         + Methodref [java/io/PrintStream.<init> (Ljava/io/OutputStream;)V]
-      [72] invokestatic #102
+      [72] invokestatic #95
         + Methodref [java/lang/System.setErr (Ljava/io/PrintStream;)V]
       [75] aload_2 v2
-      [76] invokevirtual #88
+      [76] invokevirtual #81
         + Methodref [java/io/FileOutputStream.close ()V]
       [79] goto +8 (target=87)
       [82] astore_3 v3
       [83] aload_3 v3
-      [84] invokevirtual #89
+      [84] invokevirtual #82
         + Methodref [java/io/IOException.printStackTrace ()V]
       [87] return
       Code attribute exceptions (count = 1):
@@ -59791,7 +59751,7 @@ Methods (count = 23):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] aconst_null
-      [3] invokevirtual #69
+      [3] invokevirtual #65
         + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
       [6] return
       Code attribute exceptions (count = 0):
@@ -59801,17 +59761,17 @@ Methods (count = 23):
       = public void a(android.content.Context,com.pediy.bbs.kanxue.h)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 3, stack = 6):
-      [0] invokestatic #77
+      [0] invokestatic #73
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] new #29
+      [3] new #26
         + Class [com/pediy/bbs/kanxue/c]
       [6] dup
       [7] aload_0 v0
       [8] aload_2 v2
       [9] aload_1 v1
-      [10] invokespecial #84
+      [10] invokespecial #77
         + Methodref [com/pediy/bbs/kanxue/c.<init> (Lcom/pediy/bbs/kanxue/App;Lcom/pediy/bbs/kanxue/h;Landroid/content/Context;)V]
-      [13] invokevirtual #80
+      [13] invokevirtual #75
         + Methodref [com/pediy/bbs/kanxue/a/a.c (Lcom/pediy/bbs/kanxue/a/e;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -59825,45 +59785,45 @@ Methods (count = 23):
         + Class [android/app/ProgressDialog]
       [3] dup
       [4] aload_1 v1
-      [5] invokespecial #50
+      [5] invokespecial #47
         + Methodref [android/app/ProgressDialog.<init> (Landroid/content/Context;)V]
       [8] astore_3 v3
       [9] aload_3 v3
       [10] iconst_1
-      [11] invokevirtual #56
+      [11] invokevirtual #53
         + Methodref [android/app/ProgressDialog.setProgressStyle (I)V]
       [14] aload_3 v3
       [15] ldc #12
         + String [提示]
-      [17] invokevirtual #57
+      [17] invokevirtual #54
         + Methodref [android/app/ProgressDialog.setTitle (Ljava/lang/CharSequence;)V]
       [20] aload_3 v3
       [21] ldc #13
         + String [正在更新……]
-      [23] invokevirtual #55
+      [23] invokevirtual #52
         + Methodref [android/app/ProgressDialog.setMessage (Ljava/lang/CharSequence;)V]
       [26] aload_3 v3
       [27] iload_2 v2
-      [28] invokevirtual #54
+      [28] invokevirtual #51
         + Methodref [android/app/ProgressDialog.setMax (I)V]
       [31] aload_3 v3
       [32] iconst_0
-      [33] invokevirtual #53
+      [33] invokevirtual #50
         + Methodref [android/app/ProgressDialog.setIndeterminate (Z)V]
       [36] aload_3 v3
       [37] iconst_1
-      [38] invokevirtual #52
+      [38] invokevirtual #49
         + Methodref [android/app/ProgressDialog.setCancelable (Z)V]
       [41] aload_3 v3
       [42] ldc #11
         + String [取消]
-      [44] new #30
+      [44] new #27
         + Class [com/pediy/bbs/kanxue/g]
       [47] dup
       [48] aload_0 v0
-      [49] invokespecial #85
+      [49] invokespecial #78
         + Methodref [com/pediy/bbs/kanxue/g.<init> (Lcom/pediy/bbs/kanxue/App;)V]
-      [52] invokevirtual #51
+      [52] invokevirtual #48
         + Methodref [android/app/ProgressDialog.setButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V]
       [55] aload_3 v3
       [56] areturn
@@ -59874,37 +59834,37 @@ Methods (count = 23):
       = private java.lang.String a(int)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 45, locals = 2, stack = 4):
-      [0] new #36
+      [0] new #33
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] iload_1 v1
       [5] bipush 100
       [7] idiv
-      [8] invokestatic #94
+      [8] invokestatic #87
         + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
-      [11] invokespecial #97
+      [11] invokespecial #90
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [14] ldc #3
         + String [.]
-      [16] invokevirtual #100
+      [16] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [19] iload_1 v1
       [20] bipush 10
       [22] idiv
       [23] bipush 10
       [25] irem
-      [26] invokevirtual #98
+      [26] invokevirtual #91
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [29] ldc #3
         + String [.]
-      [31] invokevirtual #100
+      [31] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [34] iload_1 v1
       [35] bipush 100
       [37] irem
-      [38] invokevirtual #98
+      [38] invokevirtual #91
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [41] invokevirtual #101
+      [41] invokevirtual #94
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [44] areturn
       Code attribute exceptions (count = 0):
@@ -59917,51 +59877,51 @@ Methods (count = 23):
       [0] iload_1 v1
       [1] sipush 1024
       [4] ificmplt +46 (target=50)
-      [7] new #36
+      [7] new #33
         + Class [java/lang/StringBuilder]
       [10] dup
-      [11] new #36
+      [11] new #33
         + Class [java/lang/StringBuilder]
       [14] dup
       [15] iload_1 v1
       [16] i2d
-      [17] ldc2_w #38
+      [17] ldc2_w #35
         + Double [1024.0]
       [20] ddiv
-      [21] invokestatic #93
+      [21] invokestatic #86
         + Methodref [java/lang/String.valueOf (D)Ljava/lang/String;]
-      [24] invokespecial #97
+      [24] invokespecial #90
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [27] invokevirtual #101
+      [27] invokevirtual #94
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [30] iconst_0
       [31] iconst_3
-      [32] invokevirtual #92
+      [32] invokevirtual #85
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
-      [35] invokestatic #95
+      [35] invokestatic #88
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [38] invokespecial #97
+      [38] invokespecial #90
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [41] ldc #6
         + String [MB]
-      [43] invokevirtual #100
+      [43] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [46] invokevirtual #101
+      [46] invokevirtual #94
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [49] areturn
-      [50] new #36
+      [50] new #33
         + Class [java/lang/StringBuilder]
       [53] dup
       [54] iload_1 v1
-      [55] invokestatic #94
+      [55] invokestatic #87
         + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
-      [58] invokespecial #97
+      [58] invokespecial #90
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [61] ldc #5
         + String [KB]
-      [63] invokevirtual #100
+      [63] invokevirtual #93
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [66] invokevirtual #101
+      [66] invokevirtual #94
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [69] areturn
       Code attribute exceptions (count = 0):
@@ -59974,7 +59934,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #43
+      [1] getfield #40
         + Fieldref [com/pediy/bbs/kanxue/App.c Landroid/app/ProgressDialog;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -59985,7 +59945,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #44
+      [1] getfield #41
         + Fieldref [com/pediy/bbs/kanxue/App.d Ljava/lang/String;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -59996,7 +59956,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #47
+      [1] getfield #44
         + Fieldref [com/pediy/bbs/kanxue/App.g Landroid/os/Handler;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -60007,7 +59967,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #42
+      [1] getfield #39
         + Fieldref [com/pediy/bbs/kanxue/App.b I]
       [4] ireturn
       Code attribute exceptions (count = 0):
@@ -60018,7 +59978,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #46
+      [1] getfield #43
         + Fieldref [com/pediy/bbs/kanxue/App.f Landroid/os/Handler;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -60030,7 +59990,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] iload_1 v1
-      [2] invokespecial #67
+      [2] invokespecial #63
         + Methodref [com/pediy/bbs/kanxue/App.a (I)Ljava/lang/String;]
       [5] areturn
       Code attribute exceptions (count = 0):
@@ -60042,7 +60002,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] iload_1 v1
-      [2] invokespecial #71
+      [2] invokespecial #67
         + Methodref [com/pediy/bbs/kanxue/App.b (I)Ljava/lang/String;]
       [5] areturn
       Code attribute exceptions (count = 0):
@@ -60055,7 +60015,7 @@ Methods (count = 23):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] iload_2 v2
-      [3] invokespecial #68
+      [3] invokespecial #64
         + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;I)Landroid/app/ProgressDialog;]
       [6] areturn
       Code attribute exceptions (count = 0):
@@ -60067,7 +60027,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] putfield #43
+      [2] putfield #40
         + Fieldref [com/pediy/bbs/kanxue/App.c Landroid/app/ProgressDialog;]
       [5] return
       Code attribute exceptions (count = 0):
@@ -60079,7 +60039,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] putfield #44
+      [2] putfield #41
         + Fieldref [com/pediy/bbs/kanxue/App.d Ljava/lang/String;]
       [5] return
       Code attribute exceptions (count = 0):
@@ -60090,7 +60050,7 @@ Methods (count = 23):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #45
+      [1] getfield #42
         + Fieldref [com/pediy/bbs/kanxue/App.e Z]
       [4] ireturn
       Code attribute exceptions (count = 0):
@@ -60102,7 +60062,7 @@ Methods (count = 23):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] iload_1 v1
-      [2] putfield #45
+      [2] putfield #42
         + Fieldref [com/pediy/bbs/kanxue/App.e Z]
       [5] return
       Code attribute exceptions (count = 0):
@@ -62870,7 +62830,7 @@ Interfaces (count = 2):
   + Class [android/widget/AdapterView$OnItemClickListener]
   + Class [com/pediy/bbs/kanxue/widget/g]
 
-Constant Pool (count = 346):
+Constant Pool (count = 348):
   + Integer [2130903043]
   + Integer [2131034131]
   + Integer [2131230741]
@@ -62964,7 +62924,8 @@ Constant Pool (count = 346):
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.a ()V]
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.a (I)V]
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.d ()V]
-  + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.e ()I]
+  + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.e ()V]
+  + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.f ()I]
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.finish ()V]
   + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.getIntent ()Landroid/content/Intent;]
@@ -63020,6 +62981,7 @@ Constant Pool (count = 346):
   + NameAndType [d (Ljava/lang/String;)Ljava/lang/Integer;]
   + NameAndType [d Lcom/pediy/bbs/kanxue/widget/XListView;]
   + NameAndType [e ()I]
+  + NameAndType [e ()V]
   + NameAndType [e Lcom/pediy/bbs/kanxue/p;]
   + NameAndType [f ()I]
   + NameAndType [f Landroid/widget/ProgressBar;]
@@ -63252,7 +63214,7 @@ Fields (count = 11):
     Access flags: 0x2
       = private android.os.Handler k
 
-Methods (count = 29):
+Methods (count = 30):
   - Method:       <init>()V
     Access flags: 0x1
       = public ForumDisplayPage()
@@ -63290,7 +63252,7 @@ Methods (count = 29):
         + Class [com/pediy/bbs/kanxue/l]
       [38] dup
       [39] aload_0 v0
-      [40] invokespecial #110
+      [40] invokespecial #111
         + Methodref [com/pediy/bbs/kanxue/l.<init> (Lcom/pediy/bbs/kanxue/ForumDisplayPage;)V]
       [43] putfield #66
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.k Landroid/os/Handler;]
@@ -63309,13 +63271,13 @@ Methods (count = 29):
       [5] aload_0 v0
       [6] ldc #1
         + Integer [2130903043]
-      [8] invokevirtual #99
+      [8] invokevirtual #100
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.setContentView (I)V]
       [11] aload_0 v0
       [12] aload_0 v0
       [13] ldc #9
         + Integer [2131230747]
-      [15] invokevirtual #95
+      [15] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [18] checkcast #53
         + Class [com/pediy/bbs/kanxue/widget/XListView]
@@ -63325,32 +63287,32 @@ Methods (count = 29):
       [25] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [28] iconst_0
-      [29] invokevirtual #121
+      [29] invokevirtual #122
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setPullLoadEnable (Z)V]
       [32] aload_0 v0
       [33] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [36] iconst_1
-      [37] invokevirtual #122
+      [37] invokevirtual #123
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setPullRefreshEnable (Z)V]
       [40] aload_0 v0
       [41] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [44] aload_0 v0
-      [45] invokevirtual #124
+      [45] invokevirtual #125
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setXListViewListener (Lcom/pediy/bbs/kanxue/widget/g;)V]
       [48] aload_0 v0
       [49] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [52] aload_0 v0
-      [53] invokevirtual #120
+      [53] invokevirtual #121
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
       [56] aload_0 v0
       [57] new #50
         + Class [com/pediy/bbs/kanxue/p]
       [60] dup
       [61] aload_0 v0
-      [62] invokespecial #113
+      [62] invokespecial #114
         + Methodref [com/pediy/bbs/kanxue/p.<init> (Lcom/pediy/bbs/kanxue/ForumDisplayPage;)V]
       [65] putfield #60
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.e Lcom/pediy/bbs/kanxue/p;]
@@ -63360,13 +63322,13 @@ Methods (count = 29):
       [72] aload_0 v0
       [73] getfield #60
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.e Lcom/pediy/bbs/kanxue/p;]
-      [76] invokevirtual #119
+      [76] invokevirtual #120
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setAdapter (Landroid/widget/ListAdapter;)V]
       [79] aload_0 v0
       [80] aload_0 v0
       [81] ldc #8
         + Integer [2131230746]
-      [83] invokevirtual #95
+      [83] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [86] checkcast #52
         + Class [com/pediy/bbs/kanxue/widget/RefreshActionBtn]
@@ -63376,14 +63338,14 @@ Methods (count = 29):
       [93] aload_0 v0
       [94] ldc #10
         + Integer [2131230748]
-      [96] invokevirtual #95
+      [96] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [99] checkcast #37
         + Class [android/widget/ProgressBar]
       [102] putfield #61
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.f Landroid/widget/ProgressBar;]
       [105] aload_0 v0
-      [106] invokevirtual #97
+      [106] invokevirtual #98
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.getIntent ()Landroid/content/Intent;]
       [109] invokevirtual #71
         + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
@@ -63391,7 +63353,7 @@ Methods (count = 29):
       [113] aload_0 v0
       [114] ldc #6
         + Integer [2131230744]
-      [116] invokevirtual #95
+      [116] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [119] checkcast #38
         + Class [android/widget/TextView]
@@ -63420,7 +63382,7 @@ Methods (count = 29):
       [153] aload_0 v0
       [154] ldc #7
         + Integer [2131230745]
-      [156] invokevirtual #95
+      [156] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [159] bipush 8
       [161] invokevirtual #81
@@ -63434,7 +63396,7 @@ Methods (count = 29):
       [173] aload_0 v0
       [174] ldc #4
         + Integer [2131230742]
-      [176] invokevirtual #95
+      [176] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [179] bipush 8
       [181] invokevirtual #81
@@ -63442,7 +63404,7 @@ Methods (count = 29):
       [184] aload_0 v0
       [185] ldc #5
         + Integer [2131230743]
-      [187] invokevirtual #95
+      [187] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [190] bipush 8
       [192] invokevirtual #81
@@ -63450,7 +63412,7 @@ Methods (count = 29):
       [195] aload_0 v0
       [196] ldc #3
         + Integer [2131230741]
-      [198] invokevirtual #95
+      [198] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.findViewById (I)Landroid/view/View;]
       [201] iconst_0
       [202] invokevirtual #81
@@ -63461,7 +63423,7 @@ Methods (count = 29):
       [209] dup
       [210] aload_0 v0
       [211] aconst_null
-      [212] invokespecial #115
+      [212] invokespecial #116
         + Methodref [com/pediy/bbs/kanxue/q.<init> (Lcom/pediy/bbs/kanxue/ForumDisplayPage;Lcom/pediy/bbs/kanxue/q;)V]
       [215] putfield #65
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.j Lcom/pediy/bbs/kanxue/q;]
@@ -63481,7 +63443,7 @@ Methods (count = 29):
       [236] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.j Lcom/pediy/bbs/kanxue/q;]
       [239] aload v4
-      [241] invokevirtual #98
+      [241] invokevirtual #99
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.registerReceiver (Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;]
       [244] pop
       [245] aload_0 v0
@@ -63514,7 +63476,7 @@ Methods (count = 29):
       [5] aload_0 v0
       [6] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.j Lcom/pediy/bbs/kanxue/q;]
-      [9] invokevirtual #102
+      [9] invokevirtual #103
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.unregisterReceiver (Landroid/content/BroadcastReceiver;)V]
       [12] return
       Code attribute exceptions (count = 0):
@@ -63524,7 +63486,7 @@ Methods (count = 29):
       = private void a(int)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 21, locals = 2, stack = 7):
-      [0] invokestatic #103
+      [0] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
       [3] aload_0 v0
       [4] getfield #56
@@ -63535,9 +63497,9 @@ Methods (count = 29):
       [11] dup
       [12] aload_0 v0
       [13] iload_1 v1
-      [14] invokespecial #111
+      [14] invokespecial #112
         + Methodref [com/pediy/bbs/kanxue/m.<init> (Lcom/pediy/bbs/kanxue/ForumDisplayPage;I)V]
-      [17] invokevirtual #104
+      [17] invokevirtual #105
         + Methodref [com/pediy/bbs/kanxue/a/a.a (IILcom/pediy/bbs/kanxue/a/e;)V]
       [20] return
       Code attribute exceptions (count = 0):
@@ -63572,7 +63534,7 @@ Methods (count = 29):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 2, stack = 1):
       [0] aload_0 v0
-      [1] invokevirtual #96
+      [1] invokevirtual #97
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.finish ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -63586,7 +63548,7 @@ Methods (count = 29):
       [1] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [4] iconst_0
-      [5] invokevirtual #123
+      [5] invokevirtual #124
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
       [8] return
       Code attribute exceptions (count = 0):
@@ -63596,9 +63558,9 @@ Methods (count = 29):
       = public void onNewThreadBtnClick(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 84, locals = 4, stack = 5):
-      [0] invokestatic #103
+      [0] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] invokevirtual #106
+      [3] invokevirtual #107
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [6] ifne +18 (target=24)
       [9] aload_0 v0
@@ -63610,7 +63572,7 @@ Methods (count = 29):
         + Class [com/pediy/bbs/kanxue/LoginPage]
       [17] invokespecial #70
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [20] invokevirtual #100
+      [20] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.startActivity (Landroid/content/Intent;)V]
       [23] return
       [24] aload_0 v0
@@ -63657,7 +63619,7 @@ Methods (count = 29):
       [77] aload_0 v0
       [78] aload_3 v3
       [79] iconst_0
-      [80] invokevirtual #101
+      [80] invokevirtual #102
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.startActivityForResult (Landroid/content/Intent;I)V]
       [83] return
       Code attribute exceptions (count = 0):
@@ -63670,7 +63632,7 @@ Methods (count = 29):
       = private void d()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 23, locals = 1, stack = 7):
-      [0] invokestatic #103
+      [0] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
       [3] aload_0 v0
       [4] getfield #56
@@ -63682,59 +63644,71 @@ Methods (count = 29):
         + Class [com/pediy/bbs/kanxue/n]
       [14] dup
       [15] aload_0 v0
-      [16] invokespecial #112
+      [16] invokespecial #113
         + Methodref [com/pediy/bbs/kanxue/n.<init> (Lcom/pediy/bbs/kanxue/ForumDisplayPage;)V]
-      [19] invokevirtual #105
+      [19] invokevirtual #106
         + Methodref [com/pediy/bbs/kanxue/a/a.a (IJLcom/pediy/bbs/kanxue/a/e;)V]
       [22] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
+  + Method:       e()V
+    Access flags: 0x2
+      = private void e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #63
+        + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.h Lcom/a/a/b;]
+      [4] ifnonnull +10 (target=14)
+      [7] aload_0 v0
+      [8] invokevirtual #91
+        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.a ()V]
+      [11] goto +7 (target=18)
+      [14] aload_0 v0
+      [15] invokespecial #93
+        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.d ()V]
+      [18] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [14] Var: ..., Stack: (empty)
+        - [18] Var: ..., Stack: (empty)
   + Method:       onRefreshBtnClick(Landroid/view/View;)V
     Access flags: 0x1
       = public void onRefreshBtnClick(android.view.View)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 52, locals = 2, stack = 2):
+    + Code attribute instructions (code length = 38, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.g Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [4] invokevirtual #117
+      [4] invokevirtual #118
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.c ()Z]
       [7] ifeq +4 (target=11)
       [10] return
       [11] aload_0 v0
       [12] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.g Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [15] invokevirtual #116
+      [15] invokevirtual #117
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.a ()V]
       [18] aload_0 v0
       [19] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
       [22] iconst_0
-      [23] invokevirtual #123
+      [23] invokevirtual #124
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
       [26] aload_0 v0
       [27] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.d Lcom/pediy/bbs/kanxue/widget/XListView;]
-      [30] invokevirtual #118
+      [30] invokevirtual #119
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.a ()V]
       [33] aload_0 v0
-      [34] getfield #63
-        + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.h Lcom/a/a/b;]
-      [37] ifnonnull +10 (target=47)
-      [40] aload_0 v0
-      [41] invokevirtual #91
-        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.a ()V]
-      [44] goto +7 (target=51)
-      [47] aload_0 v0
-      [48] invokespecial #93
-        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.d ()V]
-      [51] return
+      [34] invokespecial #94
+        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.e ()V]
+      [37] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 3):
+      + Stack map table attribute (count = 1):
         - [11] Var: ..., Stack: (empty)
-        - [47] Var: ..., Stack: (empty)
-        - [51] Var: ..., Stack: (empty)
   + Method:       b()V
     Access flags: 0x1
       = public void b()
@@ -63743,11 +63717,11 @@ Methods (count = 29):
       [0] aload_0 v0
       [1] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.g Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [4] invokevirtual #116
+      [4] invokevirtual #117
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.a ()V]
       [7] aload_0 v0
-      [8] invokespecial #93
-        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.d ()V]
+      [8] invokespecial #94
+        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.e ()V]
       [11] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -63775,67 +63749,73 @@ Methods (count = 29):
     Access flags: 0x1
       = public void onItemClick(android.widget.AdapterView,android.view.View,int,long)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 82, locals = 9, stack = 4):
-      [0] aload_0 v0
-      [1] getfield #63
+    + Code attribute instructions (code length = 88, locals = 9, stack = 4):
+      [0] iload_3 v3
+      [1] iconst_1
+      [2] ificmpge +4 (target=6)
+      [5] return
+      [6] aload_0 v0
+      [7] getfield #63
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.h Lcom/a/a/b;]
-      [4] iload_3 v3
-      [5] iconst_1
-      [6] isub
-      [7] invokevirtual #85
+      [10] iload_3 v3
+      [11] iconst_1
+      [12] isub
+      [13] invokevirtual #85
         + Methodref [com/a/a/b.a (I)Lcom/a/a/e;]
-      [10] astore v6
-      [12] new #33
+      [16] astore v6
+      [18] new #33
         + Class [android/os/Bundle]
-      [15] dup
-      [16] invokespecial #75
+      [21] dup
+      [22] invokespecial #75
         + Methodref [android/os/Bundle.<init> ()V]
-      [19] astore v7
-      [21] aload v7
-      [23] ldc #17
+      [25] astore v7
+      [27] aload v7
+      [29] ldc #17
         + String [id]
-      [25] aload v6
-      [27] ldc #26
+      [31] aload v6
+      [33] ldc #26
         + String [threadid]
-      [29] invokevirtual #90
+      [35] invokevirtual #90
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [32] invokevirtual #125
+      [38] invokevirtual #126
         + Methodref [java/lang/Integer.intValue ()I]
-      [35] invokevirtual #79
+      [41] invokevirtual #79
         + Methodref [android/os/Bundle.putInt (Ljava/lang/String;I)V]
-      [38] aload v7
-      [40] ldc #20
+      [44] aload v7
+      [46] ldc #20
         + String [open]
-      [42] aload v6
-      [44] ldc #20
+      [48] aload v6
+      [50] ldc #20
         + String [open]
-      [46] invokevirtual #90
+      [52] invokevirtual #90
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [49] invokevirtual #125
+      [55] invokevirtual #126
         + Methodref [java/lang/Integer.intValue ()I]
-      [52] invokevirtual #79
+      [58] invokevirtual #79
         + Methodref [android/os/Bundle.putInt (Ljava/lang/String;I)V]
-      [55] new #31
+      [61] new #31
         + Class [android/content/Intent]
-      [58] dup
-      [59] aload_0 v0
-      [60] ldc #45
+      [64] dup
+      [65] aload_0 v0
+      [66] ldc #45
         + Class [com/pediy/bbs/kanxue/ShowThreadPage]
-      [62] invokespecial #70
+      [68] invokespecial #70
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [65] astore v8
-      [67] aload v8
-      [69] aload v7
-      [71] invokevirtual #72
+      [71] astore v8
+      [73] aload v8
+      [75] aload v7
+      [77] invokevirtual #72
         + Methodref [android/content/Intent.putExtras (Landroid/os/Bundle;)Landroid/content/Intent;]
-      [74] pop
-      [75] aload_0 v0
-      [76] aload v8
-      [78] invokevirtual #100
+      [80] pop
+      [81] aload_0 v0
+      [82] aload v8
+      [84] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.startActivity (Landroid/content/Intent;)V]
-      [81] return
+      [87] return
       Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [6] Var: ..., Stack: (empty)
   + Method:       onActivityResult(IILandroid/content/Intent;)V
     Access flags: 0x4
       = protected void onActivityResult(int,int,android.content.Intent)
@@ -63874,7 +63854,7 @@ Methods (count = 29):
         + String [id]
       [58] invokevirtual #77
         + Methodref [android/os/Bundle.getInt (Ljava/lang/String;)I]
-      [61] invokestatic #126
+      [61] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [64] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63882,9 +63862,9 @@ Methods (count = 29):
       [68] aload v5
       [70] ldc #22
         + String [postusername]
-      [72] invokestatic #103
+      [72] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [75] invokevirtual #107
+      [75] invokevirtual #108
         + Methodref [com/pediy/bbs/kanxue/a/a.d ()Ljava/lang/String;]
       [78] invokestatic #80
         + Methodref [android/text/Html.fromHtml (Ljava/lang/String;)Landroid/text/Spanned;]
@@ -63894,11 +63874,11 @@ Methods (count = 29):
       [85] aload v5
       [87] ldc #21
         + String [postuserid]
-      [89] invokestatic #103
+      [89] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [92] invokevirtual #108
+      [92] invokevirtual #109
         + Methodref [com/pediy/bbs/kanxue/a/a.e ()I]
-      [95] invokestatic #126
+      [95] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [98] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63906,11 +63886,11 @@ Methods (count = 29):
       [102] aload v5
       [104] ldc #12
         + String [avatar]
-      [106] invokestatic #103
+      [106] invokestatic #104
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [109] invokevirtual #109
+      [109] invokevirtual #110
         + Methodref [com/pediy/bbs/kanxue/a/a.f ()I]
-      [112] invokestatic #126
+      [112] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [115] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63935,7 +63915,7 @@ Methods (count = 29):
       [141] ldc #29
         + String [views]
       [143] iconst_1
-      [144] invokestatic #126
+      [144] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [147] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63944,7 +63924,7 @@ Methods (count = 29):
       [153] ldc #23
         + String [replycount]
       [155] iconst_0
-      [156] invokestatic #126
+      [156] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [159] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63953,7 +63933,7 @@ Methods (count = 29):
       [165] ldc #15
         + String [globalsticky]
       [167] iconst_0
-      [168] invokestatic #126
+      [168] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [171] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63962,7 +63942,7 @@ Methods (count = 29):
       [177] ldc #24
         + String [sticky]
       [179] iconst_0
-      [180] invokestatic #126
+      [180] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [183] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
@@ -63971,14 +63951,14 @@ Methods (count = 29):
       [189] ldc #16
         + String [goodnees]
       [191] iconst_0
-      [192] invokestatic #126
+      [192] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
       [195] invokevirtual #89
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
       [198] pop
       [199] aload_0 v0
-      [200] invokespecial #94
-        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.e ()I]
+      [200] invokespecial #95
+        + Methodref [com/pediy/bbs/kanxue/ForumDisplayPage.f ()I]
       [203] istore v6
       [205] aload_0 v0
       [206] getfield #63
@@ -63990,7 +63970,7 @@ Methods (count = 29):
       [216] aload_0 v0
       [217] getfield #60
         + Fieldref [com/pediy/bbs/kanxue/ForumDisplayPage.e Lcom/pediy/bbs/kanxue/p;]
-      [220] invokevirtual #114
+      [220] invokevirtual #115
         + Methodref [com/pediy/bbs/kanxue/p.notifyDataSetChanged ()V]
       [223] aload_0 v0
       [224] getfield #59
@@ -63998,7 +63978,7 @@ Methods (count = 29):
       [227] iload v6
       [229] iconst_1
       [230] iadd
-      [231] invokevirtual #123
+      [231] invokevirtual #124
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
       [234] goto +3 (target=237)
       [237] return
@@ -64007,9 +63987,9 @@ Methods (count = 29):
       + Stack map table attribute (count = 2):
         - [20] Var: ..., Stack: (empty)
         - [237] Var: ..., Stack: (empty)
-  + Method:       e()I
+  + Method:       f()I
     Access flags: 0x2
-      = private int e()
+      = private int f()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 60, locals = 3, stack = 2):
       [0] iconst_0
@@ -64027,7 +64007,7 @@ Methods (count = 29):
         + String [globalsticky]
       [17] invokevirtual #90
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [20] invokevirtual #125
+      [20] invokevirtual #126
         + Methodref [java/lang/Integer.intValue ()I]
       [23] iconst_m1
       [24] ificmpeq +20 (target=44)
@@ -64036,7 +64016,7 @@ Methods (count = 29):
         + String [sticky]
       [30] invokevirtual #90
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [33] invokevirtual #125
+      [33] invokevirtual #126
         + Methodref [java/lang/Integer.intValue ()I]
       [36] ifeq +6 (target=42)
       [39] goto +5 (target=44)
@@ -70534,7 +70514,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 276):
+Constant Pool (count = 292):
   + Integer [2130837515]
   + Integer [2130837529]
   + Integer [2130837540]
@@ -70552,13 +70532,16 @@ Constant Pool (count = 276):
   + String [webmaster@pediy.com]
   + String [取消]
   + String [意见反馈]
+  + String [未安装邮件客户端]
   + String [检测更新中，请稍后……]
   + String [游客]
   + String [确定]
+  + Class [[Ljava/lang/String;]
   + Class [android/app/Activity]
   + Class [android/app/AlertDialog]
   + Class [android/app/AlertDialog$Builder]
   + Class [android/app/ProgressDialog]
+  + Class [android/content/ActivityNotFoundException]
   + Class [android/content/Intent]
   + Class [android/content/IntentFilter]
   + Class [android/content/pm/PackageInfo]
@@ -70567,8 +70550,10 @@ Constant Pool (count = 276):
   + Class [android/os/Bundle]
   + Class [android/os/Handler]
   + Class [android/text/Html]
+  + Class [android/view/View]
   + Class [android/widget/ImageView]
   + Class [android/widget/TextView]
+  + Class [android/widget/Toast]
   + Class [com/pediy/bbs/kanxue/AboutPage]
   + Class [com/pediy/bbs/kanxue/App]
   + Class [com/pediy/bbs/kanxue/FeedbackPage]
@@ -70599,6 +70584,7 @@ Constant Pool (count = 276):
   + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
   + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
   + Methodref [android/app/ProgressDialog.show (Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZZ)Landroid/app/ProgressDialog;]
+  + Methodref [android/content/ActivityNotFoundException.printStackTrace ()V]
   + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
   + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
   + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
@@ -70612,6 +70598,8 @@ Constant Pool (count = 276):
   + Methodref [android/text/Html.fromHtml (Ljava/lang/String;)Landroid/text/Spanned;]
   + Methodref [android/widget/ImageView.setImageResource (I)V]
   + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Methodref [android/widget/Toast.show ()V]
   + Methodref [com/pediy/bbs/kanxue/App.a ()Landroid/os/Handler;]
   + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
   + Methodref [com/pediy/bbs/kanxue/SettingPage.a ()V]
@@ -70669,6 +70657,7 @@ Constant Pool (count = 276):
   + NameAndType [getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
   + NameAndType [getPackageManager ()Landroid/content/pm/PackageManager;]
   + NameAndType [getPackageName ()Ljava/lang/String;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
   + NameAndType [onCreate (Landroid/os/Bundle;)V]
   + NameAndType [onDestroy ()V]
   + NameAndType [printStackTrace ()V]
@@ -70707,6 +70696,7 @@ Constant Pool (count = 276):
   + Utf8 [(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;]
   + Utf8 [(Landroid/content/Context;)V]
   + Utf8 [(Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
   + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZZ)Landroid/app/ProgressDialog;]
   + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
   + Utf8 [(Landroid/content/Intent;)V]
@@ -70735,6 +70725,7 @@ Constant Pool (count = 276):
   + Utf8 [Lcom/pediy/bbs/kanxue/widget/ImageViewWithCache;]
   + Utf8 [Ljava/lang/String;]
   + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/String;]
   + Utf8 [a]
   + Utf8 [addAction]
   + Utf8 [android.intent.action.SEND]
@@ -70744,6 +70735,7 @@ Constant Pool (count = 276):
   + Utf8 [android/app/AlertDialog]
   + Utf8 [android/app/AlertDialog$Builder]
   + Utf8 [android/app/ProgressDialog]
+  + Utf8 [android/content/ActivityNotFoundException]
   + Utf8 [android/content/Intent]
   + Utf8 [android/content/IntentFilter]
   + Utf8 [android/content/pm/PackageInfo]
@@ -70752,8 +70744,10 @@ Constant Pool (count = 276):
   + Utf8 [android/os/Bundle]
   + Utf8 [android/os/Handler]
   + Utf8 [android/text/Html]
+  + Utf8 [android/view/View]
   + Utf8 [android/widget/ImageView]
   + Utf8 [android/widget/TextView]
+  + Utf8 [android/widget/Toast]
   + Utf8 [b]
   + Utf8 [c]
   + Utf8 [com.pediy.bbs.kanxue.LOGIN_STATE_CHANGE_ACTION]
@@ -70780,6 +70774,7 @@ Constant Pool (count = 276):
   + Utf8 [java/lang/String]
   + Utf8 [java/net/MalformedURLException]
   + Utf8 [java/net/URL]
+  + Utf8 [makeText]
   + Utf8 [message/rfc822]
   + Utf8 [onAboutBtnClick]
   + Utf8 [onActivityResult]
@@ -70807,6 +70802,7 @@ Constant Pool (count = 276):
   + Utf8 [webmaster@pediy.com]
   + Utf8 [取消]
   + Utf8 [意见反馈]
+  + Utf8 [未安装邮件客户端]
   + Utf8 [检测更新中，请稍后……]
   + Utf8 [游客]
   + Utf8 [确定]
@@ -70838,27 +70834,27 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 30, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] invokespecial #55
+      [1] invokespecial #60
         + Methodref [android/app/Activity.<init> ()V]
       [4] aload_0 v0
       [5] aconst_null
-      [6] putfield #50
+      [6] putfield #55
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.b Lcom/pediy/bbs/kanxue/widget/ImageViewWithCache;]
       [9] aload_0 v0
       [10] aconst_null
-      [11] putfield #51
+      [11] putfield #56
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.c Landroid/widget/TextView;]
       [14] aload_0 v0
       [15] aconst_null
-      [16] putfield #52
+      [16] putfield #57
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.d Landroid/widget/ImageView;]
       [19] aload_0 v0
       [20] aconst_null
-      [21] putfield #53
+      [21] putfield #58
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.e Landroid/os/Handler;]
       [24] aload_0 v0
       [25] aconst_null
-      [26] putfield #54
+      [26] putfield #59
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.f Lcom/pediy/bbs/kanxue/ai;]
       [29] return
       Code attribute exceptions (count = 0):
@@ -70870,123 +70866,123 @@ Methods (count = 13):
     + Code attribute instructions (code length = 164, locals = 4, stack = 5):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #56
+      [2] invokespecial #61
         + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] ldc #4
         + Integer [2130903052]
-      [8] invokevirtual #87
+      [8] invokevirtual #95
         + Methodref [com/pediy/bbs/kanxue/SettingPage.setContentView (I)V]
       [11] aload_0 v0
       [12] aload_0 v0
       [13] ldc #9
         + Integer [2131230779]
-      [15] invokevirtual #82
+      [15] invokevirtual #90
         + Methodref [com/pediy/bbs/kanxue/SettingPage.findViewById (I)Landroid/view/View;]
-      [18] checkcast #34
+      [18] checkcast #38
         + Class [android/widget/TextView]
-      [21] putfield #49
+      [21] putfield #54
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.a Landroid/widget/TextView;]
       [24] aconst_null
       [25] astore_2 v2
       [26] aload_0 v0
-      [27] invokevirtual #84
+      [27] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/SettingPage.getPackageManager ()Landroid/content/pm/PackageManager;]
       [30] aload_0 v0
-      [31] invokevirtual #85
+      [31] invokevirtual #93
         + Methodref [com/pediy/bbs/kanxue/SettingPage.getPackageName ()Ljava/lang/String;]
       [34] sipush 16384
-      [37] invokevirtual #72
+      [37] invokevirtual #78
         + Methodref [android/content/pm/PackageManager.getPackageInfo (Ljava/lang/String;I)Landroid/content/pm/PackageInfo;]
       [40] astore_2 v2
       [41] aload_0 v0
-      [42] getfield #49
+      [42] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.a Landroid/widget/TextView;]
       [45] aload_2 v2
-      [46] getfield #48
+      [46] getfield #53
         + Fieldref [android/content/pm/PackageInfo.versionName Ljava/lang/String;]
-      [49] invokevirtual #77
+      [49] invokevirtual #83
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [52] goto +8 (target=60)
       [55] astore_3 v3
       [56] aload_3 v3
-      [57] invokevirtual #73
+      [57] invokevirtual #79
         + Methodref [android/content/pm/PackageManager$NameNotFoundException.printStackTrace ()V]
       [60] aload_0 v0
       [61] aload_0 v0
       [62] ldc #6
         + Integer [2131230773]
-      [64] invokevirtual #82
+      [64] invokevirtual #90
         + Methodref [com/pediy/bbs/kanxue/SettingPage.findViewById (I)Landroid/view/View;]
-      [67] checkcast #44
+      [67] checkcast #49
         + Class [com/pediy/bbs/kanxue/widget/ImageViewWithCache]
-      [70] putfield #50
+      [70] putfield #55
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.b Lcom/pediy/bbs/kanxue/widget/ImageViewWithCache;]
       [73] aload_0 v0
       [74] aload_0 v0
       [75] ldc #7
         + Integer [2131230774]
-      [77] invokevirtual #82
+      [77] invokevirtual #90
         + Methodref [com/pediy/bbs/kanxue/SettingPage.findViewById (I)Landroid/view/View;]
-      [80] checkcast #34
+      [80] checkcast #38
         + Class [android/widget/TextView]
-      [83] putfield #51
+      [83] putfield #56
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.c Landroid/widget/TextView;]
       [86] aload_0 v0
       [87] aload_0 v0
       [88] ldc #8
         + Integer [2131230775]
-      [90] invokevirtual #82
+      [90] invokevirtual #90
         + Methodref [com/pediy/bbs/kanxue/SettingPage.findViewById (I)Landroid/view/View;]
-      [93] checkcast #33
+      [93] checkcast #37
         + Class [android/widget/ImageView]
-      [96] putfield #52
+      [96] putfield #57
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.d Landroid/widget/ImageView;]
-      [99] invokestatic #91
+      [99] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [102] invokevirtual #93
+      [102] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [105] ifeq +7 (target=112)
       [108] aload_0 v0
-      [109] invokespecial #80
+      [109] invokespecial #88
         + Methodref [com/pediy/bbs/kanxue/SettingPage.a ()V]
       [112] aload_0 v0
       [113] aload_0 v0
-      [114] invokevirtual #83
+      [114] invokevirtual #91
         + Methodref [com/pediy/bbs/kanxue/SettingPage.getApplication ()Landroid/app/Application;]
-      [117] checkcast #36
+      [117] checkcast #41
         + Class [com/pediy/bbs/kanxue/App]
-      [120] invokevirtual #78
+      [120] invokevirtual #86
         + Methodref [com/pediy/bbs/kanxue/App.a ()Landroid/os/Handler;]
-      [123] putfield #53
+      [123] putfield #58
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.e Landroid/os/Handler;]
       [126] aload_0 v0
-      [127] new #43
+      [127] new #48
         + Class [com/pediy/bbs/kanxue/ai]
       [130] dup
       [131] aload_0 v0
       [132] aconst_null
-      [133] invokespecial #99
+      [133] invokespecial #107
         + Methodref [com/pediy/bbs/kanxue/ai.<init> (Lcom/pediy/bbs/kanxue/SettingPage;Lcom/pediy/bbs/kanxue/ai;)V]
-      [136] putfield #54
+      [136] putfield #59
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.f Lcom/pediy/bbs/kanxue/ai;]
-      [139] new #26
+      [139] new #29
         + Class [android/content/IntentFilter]
       [142] dup
-      [143] invokespecial #70
+      [143] invokespecial #76
         + Methodref [android/content/IntentFilter.<init> ()V]
       [146] astore_3 v3
       [147] aload_3 v3
       [148] ldc #13
         + String [com.pediy.bbs.kanxue.LOGIN_STATE_CHANGE_ACTION]
-      [150] invokevirtual #71
+      [150] invokevirtual #77
         + Methodref [android/content/IntentFilter.addAction (Ljava/lang/String;)V]
       [153] aload_0 v0
       [154] aload_0 v0
-      [155] getfield #54
+      [155] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.f Lcom/pediy/bbs/kanxue/ai;]
       [158] aload_3 v3
-      [159] invokevirtual #86
+      [159] invokevirtual #94
         + Methodref [com/pediy/bbs/kanxue/SettingPage.registerReceiver (Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;]
       [162] pop
       [163] return
@@ -71004,13 +71000,13 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] invokespecial #57
+      [1] invokespecial #62
         + Methodref [android/app/Activity.onDestroy ()V]
       [4] aload_0 v0
       [5] aload_0 v0
-      [6] getfield #54
+      [6] getfield #59
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.f Lcom/pediy/bbs/kanxue/ai;]
-      [9] invokevirtual #90
+      [9] invokevirtual #98
         + Methodref [com/pediy/bbs/kanxue/SettingPage.unregisterReceiver (Landroid/content/BroadcastReceiver;)V]
       [12] return
       Code attribute exceptions (count = 0):
@@ -71020,54 +71016,54 @@ Methods (count = 13):
       = private void a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 72, locals = 3, stack = 4):
-      [0] invokestatic #91
+      [0] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] invokevirtual #96
+      [3] invokevirtual #104
         + Methodref [com/pediy/bbs/kanxue/a/a.f ()I]
       [6] iconst_1
       [7] ificmpne +39 (target=46)
-      [10] invokestatic #91
+      [10] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [13] invokestatic #91
+      [13] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [16] invokevirtual #95
+      [16] invokevirtual #103
         + Methodref [com/pediy/bbs/kanxue/a/a.e ()I]
-      [19] invokevirtual #92
+      [19] invokevirtual #100
         + Methodref [com/pediy/bbs/kanxue/a/a.a (I)Ljava/lang/String;]
       [22] astore_1 v1
       [23] aload_0 v0
-      [24] getfield #50
+      [24] getfield #55
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.b Lcom/pediy/bbs/kanxue/widget/ImageViewWithCache;]
-      [27] new #47
+      [27] new #52
         + Class [java/net/URL]
       [30] dup
       [31] aload_1 v1
-      [32] invokespecial #103
+      [32] invokespecial #111
         + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
-      [35] invokevirtual #101
+      [35] invokevirtual #109
         + Methodref [com/pediy/bbs/kanxue/widget/ImageViewWithCache.setImageUrl (Ljava/net/URL;)V]
       [38] goto +8 (target=46)
       [41] astore_2 v2
       [42] aload_2 v2
-      [43] invokevirtual #102
+      [43] invokevirtual #110
         + Methodref [java/net/MalformedURLException.printStackTrace ()V]
       [46] aload_0 v0
-      [47] getfield #52
+      [47] getfield #57
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.d Landroid/widget/ImageView;]
       [50] ldc #2
         + Integer [2130837529]
-      [52] invokevirtual #76
+      [52] invokevirtual #82
         + Methodref [android/widget/ImageView.setImageResource (I)V]
       [55] aload_0 v0
-      [56] getfield #51
+      [56] getfield #56
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.c Landroid/widget/TextView;]
-      [59] invokestatic #91
+      [59] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [62] invokevirtual #94
+      [62] invokevirtual #102
         + Methodref [com/pediy/bbs/kanxue/a/a.d ()Ljava/lang/String;]
-      [65] invokestatic #75
+      [65] invokestatic #81
         + Methodref [android/text/Html.fromHtml (Ljava/lang/String;)Landroid/text/Spanned;]
-      [68] invokevirtual #77
+      [68] invokevirtual #83
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [71] return
       Code attribute exceptions (count = 1):
@@ -71083,25 +71079,25 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 28, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] getfield #50
+      [1] getfield #55
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.b Lcom/pediy/bbs/kanxue/widget/ImageViewWithCache;]
       [4] ldc #1
         + Integer [2130837515]
-      [6] invokevirtual #100
+      [6] invokevirtual #108
         + Methodref [com/pediy/bbs/kanxue/widget/ImageViewWithCache.setImageResource (I)V]
       [9] aload_0 v0
-      [10] getfield #51
+      [10] getfield #56
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.c Landroid/widget/TextView;]
-      [13] ldc #19
+      [13] ldc #20
         + String [游客]
-      [15] invokevirtual #77
+      [15] invokevirtual #83
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [18] aload_0 v0
-      [19] getfield #52
+      [19] getfield #57
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.d Landroid/widget/ImageView;]
       [22] ldc #3
         + Integer [2130837540]
-      [24] invokevirtual #76
+      [24] invokevirtual #82
         + Methodref [android/widget/ImageView.setImageResource (I)V]
       [27] return
       Code attribute exceptions (count = 0):
@@ -71111,58 +71107,58 @@ Methods (count = 13):
       = public void onLoginItemClick(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 70, locals = 3, stack = 5):
-      [0] invokestatic #91
+      [0] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] invokevirtual #93
+      [3] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [6] ifne +19 (target=25)
       [9] aload_0 v0
-      [10] new #25
+      [10] new #28
         + Class [android/content/Intent]
       [13] dup
       [14] aload_0 v0
-      [15] ldc #38
+      [15] ldc #43
         + Class [com/pediy/bbs/kanxue/LoginPage]
-      [17] invokespecial #65
+      [17] invokespecial #71
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [20] iconst_0
-      [21] invokevirtual #89
+      [21] invokevirtual #97
         + Methodref [com/pediy/bbs/kanxue/SettingPage.startActivityForResult (Landroid/content/Intent;I)V]
       [24] return
-      [25] new #23
+      [25] new #25
         + Class [android/app/AlertDialog$Builder]
       [28] dup
       [29] aload_0 v0
-      [30] invokespecial #59
+      [30] invokespecial #64
         + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
       [33] astore_2 v2
       [34] aload_2 v2
       [35] ldc #5
         + Integer [2131034128]
-      [37] invokevirtual #61
+      [37] invokevirtual #66
         + Methodref [android/app/AlertDialog$Builder.setMessage (I)Landroid/app/AlertDialog$Builder;]
       [40] pop
       [41] aload_2 v2
-      [42] ldc #20
+      [42] ldc #21
         + String [确定]
-      [44] new #41
+      [44] new #46
         + Class [com/pediy/bbs/kanxue/ac]
       [47] dup
       [48] aload_0 v0
-      [49] invokespecial #97
+      [49] invokespecial #105
         + Methodref [com/pediy/bbs/kanxue/ac.<init> (Lcom/pediy/bbs/kanxue/SettingPage;)V]
-      [52] invokevirtual #63
+      [52] invokevirtual #68
         + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
       [55] ldc #16
         + String [取消]
       [57] aconst_null
-      [58] invokevirtual #62
+      [58] invokevirtual #67
         + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
       [61] pop
       [62] aload_2 v2
-      [63] invokevirtual #60
+      [63] invokevirtual #65
         + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
-      [66] invokevirtual #58
+      [66] invokevirtual #63
         + Methodref [android/app/AlertDialog.show ()V]
       [69] return
       Code attribute exceptions (count = 0):
@@ -71179,7 +71175,7 @@ Methods (count = 13):
         1: offset = 19, target = 20
         default: offset = 26, target = 27
       [20] aload_0 v0
-      [21] invokespecial #80
+      [21] invokespecial #88
         + Methodref [com/pediy/bbs/kanxue/SettingPage.a ()V]
       [24] goto +3 (target=27)
       [27] return
@@ -71195,36 +71191,36 @@ Methods (count = 13):
     + Code attribute instructions (code length = 44, locals = 5, stack = 7):
       [0] aload_0 v0
       [1] aconst_null
-      [2] ldc #18
+      [2] ldc #19
         + String [检测更新中，请稍后……]
       [4] iconst_1
       [5] iconst_1
-      [6] invokestatic #64
+      [6] invokestatic #69
         + Methodref [android/app/ProgressDialog.show (Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZZ)Landroid/app/ProgressDialog;]
       [9] astore_2 v2
-      [10] new #31
+      [10] new #34
         + Class [android/os/Handler]
       [13] dup
-      [14] invokespecial #74
+      [14] invokespecial #80
         + Methodref [android/os/Handler.<init> ()V]
       [17] astore_3 v3
       [18] aload_0 v0
-      [19] invokevirtual #83
+      [19] invokevirtual #91
         + Methodref [com/pediy/bbs/kanxue/SettingPage.getApplication ()Landroid/app/Application;]
-      [22] checkcast #36
+      [22] checkcast #41
         + Class [com/pediy/bbs/kanxue/App]
       [25] astore v4
       [27] aload v4
       [29] aload_0 v0
-      [30] new #42
+      [30] new #47
         + Class [com/pediy/bbs/kanxue/af]
       [33] dup
       [34] aload_0 v0
       [35] aload_3 v3
       [36] aload_2 v2
-      [37] invokespecial #98
+      [37] invokespecial #106
         + Methodref [com/pediy/bbs/kanxue/af.<init> (Lcom/pediy/bbs/kanxue/SettingPage;Landroid/os/Handler;Landroid/app/ProgressDialog;)V]
-      [40] invokevirtual #79
+      [40] invokevirtual #87
         + Methodref [com/pediy/bbs/kanxue/App.a (Landroid/content/Context;Lcom/pediy/bbs/kanxue/h;)V]
       [43] return
       Code attribute exceptions (count = 0):
@@ -71233,37 +71229,37 @@ Methods (count = 13):
     Access flags: 0x1
       = public void onFeedbackItemClick(android.view.View)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 80, locals = 5, stack = 5):
-      [0] invokestatic #91
+    + Code attribute instructions (code length = 100, locals = 6, stack = 5):
+      [0] invokestatic #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] invokevirtual #93
+      [3] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [6] ifeq +20 (target=26)
       [9] aload_0 v0
-      [10] new #25
+      [10] new #28
         + Class [android/content/Intent]
       [13] dup
       [14] aload_0 v0
-      [15] ldc #37
+      [15] ldc #42
         + Class [com/pediy/bbs/kanxue/FeedbackPage]
-      [17] invokespecial #65
+      [17] invokespecial #71
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [20] invokevirtual #88
+      [20] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/SettingPage.startActivity (Landroid/content/Intent;)V]
-      [23] goto +56 (target=79)
-      [26] new #25
+      [23] goto +76 (target=99)
+      [26] new #28
         + Class [android/content/Intent]
       [29] dup
       [30] ldc #10
         + String [android.intent.action.SEND]
-      [32] invokespecial #66
+      [32] invokespecial #72
         + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
       [35] astore_2 v2
       [36] ldc #17
         + String [意见反馈]
       [38] astore_3 v3
       [39] iconst_1
-      [40] anewarray #45
+      [40] anewarray #50
         + Class [java/lang/String]
       [43] dup
       [44] iconst_0
@@ -71275,47 +71271,63 @@ Methods (count = 13):
       [51] ldc #12
         + String [android.intent.extra.SUBJECT]
       [53] aload_3 v3
-      [54] invokevirtual #67
+      [54] invokevirtual #73
         + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
       [57] pop
       [58] aload_2 v2
       [59] ldc #11
         + String [android.intent.extra.EMAIL]
       [61] aload v4
-      [63] invokevirtual #68
+      [63] invokevirtual #74
         + Methodref [android/content/Intent.putExtra (Ljava/lang/String;[Ljava/lang/String;)Landroid/content/Intent;]
       [66] pop
       [67] aload_2 v2
       [68] ldc #14
         + String [message/rfc822]
-      [70] invokevirtual #69
+      [70] invokevirtual #75
         + Methodref [android/content/Intent.setType (Ljava/lang/String;)Landroid/content/Intent;]
       [73] pop
       [74] aload_0 v0
       [75] aload_2 v2
-      [76] invokevirtual #88
+      [76] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/SettingPage.startActivity (Landroid/content/Intent;)V]
-      [79] return
-      Code attribute exceptions (count = 0):
+      [79] goto +20 (target=99)
+      [82] astore v5
+      [84] aload v5
+      [86] invokevirtual #70
+        + Methodref [android/content/ActivityNotFoundException.printStackTrace ()V]
+      [89] aload_0 v0
+      [90] ldc #18
+        + String [未安装邮件客户端]
+      [92] iconst_0
+      [93] invokestatic #84
+        + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [96] invokevirtual #85
+        + Methodref [android/widget/Toast.show ()V]
+      [99] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (74 -> 79: 82):
+      + Class [android/content/ActivityNotFoundException]
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 2):
+      + Stack map table attribute (count = 3):
         - [26] Var: ..., Stack: (empty)
-        - [79] Var: ..., Stack: (empty)
+        - [82] Var: [a:com/pediy/bbs/kanxue/SettingPage][a:android/view/View][a:android/content/Intent][a:java/lang/String][a:[Ljava/lang/String;], Stack: [a:android/content/ActivityNotFoundException]
+        - [99] Var: -3, Stack: (empty)
   + Method:       onAboutBtnClick(Landroid/view/View;)V
     Access flags: 0x1
       = public void onAboutBtnClick(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 15, locals = 2, stack = 5):
       [0] aload_0 v0
-      [1] new #25
+      [1] new #28
         + Class [android/content/Intent]
       [4] dup
       [5] aload_0 v0
-      [6] ldc #35
+      [6] ldc #40
         + Class [com/pediy/bbs/kanxue/AboutPage]
-      [8] invokespecial #65
+      [8] invokespecial #71
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [11] invokevirtual #88
+      [11] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/SettingPage.startActivity (Landroid/content/Intent;)V]
       [14] return
       Code attribute exceptions (count = 0):
@@ -71326,7 +71338,7 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #80
+      [1] invokespecial #88
         + Methodref [com/pediy/bbs/kanxue/SettingPage.a ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -71337,7 +71349,7 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #53
+      [1] getfield #58
         + Fieldref [com/pediy/bbs/kanxue/SettingPage.e Landroid/os/Handler;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -71348,7 +71360,7 @@ Methods (count = 13):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #81
+      [1] invokespecial #89
         + Methodref [com/pediy/bbs/kanxue/SettingPage.b ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -72243,7 +72255,7 @@ Interfaces (count = 2):
   + Class [android/widget/AdapterView$OnItemClickListener]
   + Class [com/pediy/bbs/kanxue/widget/g]
 
-Constant Pool (count = 349):
+Constant Pool (count = 351):
   + Integer [2130903054]
   + Integer [2130903055]
   + Integer [2131230786]
@@ -72334,6 +72346,7 @@ Constant Pool (count = 349):
   + Methodref [com/a/a/e.get (Ljava/lang/Object;)Ljava/lang/Object;]
   + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a ()V]
   + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a (I)V]
+  + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.d ()V]
   + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
   + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.finish ()V]
   + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.getIntent ()Landroid/content/Intent;]
@@ -72395,6 +72408,7 @@ Constant Pool (count = 349):
   + NameAndType [c ()Z]
   + NameAndType [c I]
   + NameAndType [containsKey (Ljava/lang/Object;)Z]
+  + NameAndType [d ()V]
   + NameAndType [d (Ljava/lang/String;)Ljava/lang/Integer;]
   + NameAndType [d I]
   + NameAndType [e ()Z]
@@ -72634,7 +72648,7 @@ Fields (count = 13):
     Access flags: 0x2
       = private android.os.Handler m
 
-Methods (count = 27):
+Methods (count = 28):
   - Method:       <init>()V
     Access flags: 0x1
       = public ShowThreadPage()
@@ -72672,7 +72686,7 @@ Methods (count = 27):
         + Class [com/pediy/bbs/kanxue/aj]
       [38] dup
       [39] aload_0 v0
-      [40] invokespecial #102
+      [40] invokespecial #103
         + Methodref [com/pediy/bbs/kanxue/aj.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;)V]
       [43] putfield #65
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.l Landroid/text/Html$ImageGetter;]
@@ -72681,7 +72695,7 @@ Methods (count = 27):
         + Class [com/pediy/bbs/kanxue/ak]
       [50] dup
       [51] aload_0 v0
-      [52] invokespecial #103
+      [52] invokespecial #104
         + Methodref [com/pediy/bbs/kanxue/ak.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;)V]
       [55] putfield #66
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.m Landroid/os/Handler;]
@@ -72700,13 +72714,13 @@ Methods (count = 27):
       [5] aload_0 v0
       [6] ldc #1
         + Integer [2130903054]
-      [8] invokevirtual #94
+      [8] invokevirtual #95
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.setContentView (I)V]
       [11] aload_0 v0
       [12] aload_0 v0
       [13] ldc #6
         + Integer [2131230793]
-      [15] invokevirtual #91
+      [15] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
       [18] checkcast #50
         + Class [com/pediy/bbs/kanxue/widget/XListView]
@@ -72716,25 +72730,25 @@ Methods (count = 27):
       [25] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [28] iconst_0
-      [29] invokevirtual #120
+      [29] invokevirtual #121
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setPullLoadEnable (Z)V]
       [32] aload_0 v0
       [33] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [36] iconst_1
-      [37] invokevirtual #121
+      [37] invokevirtual #122
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setPullRefreshEnable (Z)V]
       [40] aload_0 v0
       [41] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [44] aload_0 v0
-      [45] invokevirtual #123
+      [45] invokevirtual #124
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setXListViewListener (Lcom/pediy/bbs/kanxue/widget/g;)V]
       [48] aload_0 v0
       [49] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [52] aload_0 v0
-      [53] invokevirtual #119
+      [53] invokevirtual #120
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
       [56] aload_0 v0
       [57] invokestatic #73
@@ -72749,7 +72763,7 @@ Methods (count = 27):
       [68] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [71] aload_2 v2
-      [72] invokevirtual #116
+      [72] invokevirtual #117
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.addHeaderView (Landroid/view/View;)V]
       [75] aload_0 v0
       [76] aload_2 v2
@@ -72772,7 +72786,7 @@ Methods (count = 27):
         + Class [com/pediy/bbs/kanxue/at]
       [101] dup
       [102] aload_0 v0
-      [103] invokespecial #108
+      [103] invokespecial #109
         + Methodref [com/pediy/bbs/kanxue/at.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;)V]
       [106] putfield #55
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.b Lcom/pediy/bbs/kanxue/at;]
@@ -72782,19 +72796,19 @@ Methods (count = 27):
       [113] aload_0 v0
       [114] getfield #55
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.b Lcom/pediy/bbs/kanxue/at;]
-      [117] invokevirtual #118
+      [117] invokevirtual #119
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setAdapter (Landroid/widget/ListAdapter;)V]
       [120] aload_0 v0
       [121] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
-      [124] invokevirtual #117
+      [124] invokevirtual #118
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.requestFocus ()Z]
       [127] pop
       [128] aload_0 v0
       [129] aload_0 v0
       [130] ldc #9
         + Integer [2131230797]
-      [132] invokevirtual #91
+      [132] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
       [135] checkcast #32
         + Class [android/widget/ProgressBar]
@@ -72804,14 +72818,14 @@ Methods (count = 27):
       [142] aload_0 v0
       [143] ldc #5
         + Integer [2131230792]
-      [145] invokevirtual #91
+      [145] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
       [148] checkcast #48
         + Class [com/pediy/bbs/kanxue/widget/RefreshActionBtn]
       [151] putfield #62
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.i Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
       [154] aload_0 v0
-      [155] invokevirtual #93
+      [155] invokevirtual #94
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.getIntent ()Landroid/content/Intent;]
       [158] invokevirtual #71
         + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
@@ -72833,7 +72847,7 @@ Methods (count = 27):
       [181] aload_0 v0
       [182] ldc #7
         + Integer [2131230794]
-      [184] invokevirtual #91
+      [184] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
       [187] bipush 8
       [189] invokevirtual #76
@@ -72863,11 +72877,11 @@ Methods (count = 27):
       [0] aload_0 v0
       [1] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.i Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [4] invokevirtual #109
+      [4] invokevirtual #110
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.a ()V]
       [7] aload_0 v0
-      [8] invokespecial #89
-        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a ()V]
+      [8] invokespecial #91
+        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.d ()V]
       [11] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -72897,7 +72911,7 @@ Methods (count = 27):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 2, stack = 1):
       [0] aload_0 v0
-      [1] invokevirtual #92
+      [1] invokevirtual #93
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.finish ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -72911,7 +72925,7 @@ Methods (count = 27):
       [1] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [4] iconst_0
-      [5] invokevirtual #122
+      [5] invokevirtual #123
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
       [8] return
       Code attribute exceptions (count = 0):
@@ -72921,7 +72935,7 @@ Methods (count = 27):
       = private void a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 23, locals = 1, stack = 7):
-      [0] invokestatic #96
+      [0] invokestatic #97
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
       [3] aload_0 v0
       [4] getfield #58
@@ -72933,9 +72947,9 @@ Methods (count = 27):
         + Class [com/pediy/bbs/kanxue/al]
       [14] dup
       [15] aload_0 v0
-      [16] invokespecial #104
+      [16] invokespecial #105
         + Methodref [com/pediy/bbs/kanxue/al.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;)V]
-      [19] invokevirtual #100
+      [19] invokevirtual #101
         + Methodref [com/pediy/bbs/kanxue/a/a.b (IJLcom/pediy/bbs/kanxue/a/e;)V]
       [22] return
       Code attribute exceptions (count = 0):
@@ -72945,9 +72959,9 @@ Methods (count = 27):
       = public void onReplyBtnClick(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 125, locals = 3, stack = 7):
-      [0] invokestatic #96
+      [0] invokestatic #97
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [3] invokevirtual #101
+      [3] invokevirtual #102
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [6] ifne +18 (target=24)
       [9] aload_0 v0
@@ -72959,13 +72973,13 @@ Methods (count = 27):
         + Class [com/pediy/bbs/kanxue/LoginPage]
       [17] invokespecial #70
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [20] invokevirtual #95
+      [20] invokevirtual #96
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.startActivity (Landroid/content/Intent;)V]
       [23] return
       [24] aload_0 v0
       [25] ldc #8
         + Integer [2131230795]
-      [27] invokevirtual #91
+      [27] invokevirtual #92
         + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.findViewById (I)Landroid/view/View;]
       [30] checkcast #31
         + Class [android/widget/EditText]
@@ -73017,7 +73031,7 @@ Methods (count = 27):
         + Methodref [android/app/ProgressDialog.show (Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZZ)Landroid/app/ProgressDialog;]
       [93] putfield #61
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.h Landroid/app/ProgressDialog;]
-      [96] invokestatic #96
+      [96] invokestatic #97
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
       [99] aload_0 v0
       [100] getfield #58
@@ -73025,16 +73039,16 @@ Methods (count = 27):
       [103] aload_2 v2
       [104] invokevirtual #77
         + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
-      [107] invokeinterface #128
+      [107] invokeinterface #129
         + InterfaceMethodref [android/text/Editable.toString ()Ljava/lang/String;]
       [112] new #44
         + Class [com/pediy/bbs/kanxue/an]
       [115] dup
       [116] aload_0 v0
       [117] aload_2 v2
-      [118] invokespecial #105
+      [118] invokespecial #106
         + Methodref [com/pediy/bbs/kanxue/an.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;Landroid/widget/EditText;)V]
-      [121] invokevirtual #98
+      [121] invokevirtual #99
         + Methodref [com/pediy/bbs/kanxue/a/a.a (ILjava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)V]
       [124] return
       Code attribute exceptions (count = 0):
@@ -73043,227 +73057,244 @@ Methods (count = 27):
         - [24] Var: ..., Stack: (empty)
         - [57] Var: ...[a:android/widget/EditText], Stack: (empty)
         - [82] Var: ..., Stack: (empty)
+  + Method:       d()V
+    Access flags: 0x2
+      = private void d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 35, locals = 1, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #60
+        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.g Lcom/a/a/b;]
+      [4] ifnonnull +26 (target=30)
+      [7] aload_0 v0
+      [8] iconst_1
+      [9] putfield #56
+        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
+      [12] aload_0 v0
+      [13] aload_0 v0
+      [14] dup
+      [15] getfield #56
+        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
+      [18] dup_x1
+      [19] iconst_1
+      [20] iadd
+      [21] putfield #56
+        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
+      [24] invokespecial #90
+        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a (I)V]
+      [27] goto +7 (target=34)
+      [30] aload_0 v0
+      [31] invokespecial #89
+        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a ()V]
+      [34] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [30] Var: ..., Stack: (empty)
+        - [34] Var: ..., Stack: (empty)
   + Method:       onRefreshBtnClick(Landroid/view/View;)V
     Access flags: 0x1
       = public void onRefreshBtnClick(android.view.View)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 68, locals = 2, stack = 5):
+    + Code attribute instructions (code length = 38, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.i Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [4] invokevirtual #110
+      [4] invokevirtual #111
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.c ()Z]
       [7] ifeq +4 (target=11)
       [10] return
       [11] aload_0 v0
       [12] getfield #62
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.i Lcom/pediy/bbs/kanxue/widget/RefreshActionBtn;]
-      [15] invokevirtual #109
+      [15] invokevirtual #110
         + Methodref [com/pediy/bbs/kanxue/widget/RefreshActionBtn.a ()V]
       [18] aload_0 v0
       [19] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
       [22] iconst_0
-      [23] invokevirtual #122
+      [23] invokevirtual #123
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
       [26] aload_0 v0
       [27] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
-      [30] invokevirtual #115
+      [30] invokevirtual #116
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.a ()V]
       [33] aload_0 v0
-      [34] getfield #60
-        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.g Lcom/a/a/b;]
-      [37] ifnonnull +26 (target=63)
-      [40] aload_0 v0
-      [41] iconst_1
-      [42] putfield #56
-        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
-      [45] aload_0 v0
-      [46] aload_0 v0
-      [47] dup
-      [48] getfield #56
-        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
-      [51] dup_x1
-      [52] iconst_1
-      [53] iadd
-      [54] putfield #56
-        + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.c I]
-      [57] invokespecial #90
-        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a (I)V]
-      [60] goto +7 (target=67)
-      [63] aload_0 v0
-      [64] invokespecial #89
-        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.a ()V]
-      [67] return
+      [34] invokespecial #91
+        + Methodref [com/pediy/bbs/kanxue/ShowThreadPage.d ()V]
+      [37] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 3):
+      + Stack map table attribute (count = 1):
         - [11] Var: ..., Stack: (empty)
-        - [63] Var: ..., Stack: (empty)
-        - [67] Var: ..., Stack: (empty)
   + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
     Access flags: 0x1
       = public void onItemClick(android.widget.AdapterView,android.view.View,int,long)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 217, locals = 11, stack = 6):
-      [0] aload_0 v0
-      [1] getfield #60
+    + Code attribute instructions (code length = 223, locals = 11, stack = 6):
+      [0] iload_3 v3
+      [1] iconst_2
+      [2] ificmpge +4 (target=6)
+      [5] return
+      [6] aload_0 v0
+      [7] getfield #60
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.g Lcom/a/a/b;]
-      [4] iload_3 v3
-      [5] iconst_2
-      [6] isub
-      [7] invokevirtual #84
+      [10] iload_3 v3
+      [11] iconst_2
+      [12] isub
+      [13] invokevirtual #84
         + Methodref [com/a/a/b.a (I)Lcom/a/a/e;]
-      [10] astore v6
-      [12] aload v6
-      [14] ldc #16
+      [16] astore v6
+      [18] aload v6
+      [20] ldc #16
         + String [thumbnail]
-      [16] invokevirtual #87
+      [22] invokevirtual #87
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [19] invokevirtual #124
+      [25] invokevirtual #125
         + Methodref [java/lang/Integer.intValue ()I]
-      [22] iconst_1
-      [23] ificmpeq +4 (target=27)
-      [26] return
-      [27] aload_2 v2
-      [28] ldc #4
+      [28] iconst_1
+      [29] ificmpeq +4 (target=33)
+      [32] return
+      [33] aload_2 v2
+      [34] ldc #4
         + Integer [2131230787]
-      [30] invokevirtual #75
+      [36] invokevirtual #75
         + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
-      [33] checkcast #49
+      [39] checkcast #49
         + Class [com/pediy/bbs/kanxue/widget/ThreadItemFooter]
-      [36] astore v7
-      [38] aload v7
-      [40] invokevirtual #114
+      [42] astore v7
+      [44] aload v7
+      [46] invokevirtual #115
         + Methodref [com/pediy/bbs/kanxue/widget/ThreadItemFooter.e ()Z]
-      [43] ifeq +4 (target=47)
-      [46] return
-      [47] aload_2 v2
-      [48] ldc #3
+      [49] ifeq +4 (target=53)
+      [52] return
+      [53] aload_2 v2
+      [54] ldc #3
         + Integer [2131230786]
-      [50] invokevirtual #75
+      [56] invokevirtual #75
         + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
-      [53] checkcast #33
+      [59] checkcast #33
         + Class [android/widget/TextView]
-      [56] astore v8
-      [58] aload v6
-      [60] ldc #15
+      [62] astore v8
+      [64] aload v6
+      [66] ldc #15
         + String [postid]
-      [62] invokevirtual #88
+      [68] invokevirtual #88
         + Methodref [com/a/a/e.get (Ljava/lang/Object;)Ljava/lang/Object;]
-      [65] invokevirtual #127
+      [71] invokevirtual #128
         + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
-      [68] invokestatic #125
+      [74] invokestatic #126
         + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
-      [71] istore v9
-      [73] new #45
+      [77] istore v9
+      [79] new #45
         + Class [com/pediy/bbs/kanxue/ap]
-      [76] dup
-      [77] aload_0 v0
-      [78] aload v6
-      [80] aload v8
-      [82] aload v7
-      [84] invokespecial #106
+      [82] dup
+      [83] aload_0 v0
+      [84] aload v6
+      [86] aload v8
+      [88] aload v7
+      [90] invokespecial #107
         + Methodref [com/pediy/bbs/kanxue/ap.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;Lcom/a/a/e;Landroid/widget/TextView;Lcom/pediy/bbs/kanxue/widget/ThreadItemFooter;)V]
-      [87] astore v10
-      [89] aload v6
-      [91] ldc #13
+      [93] astore v10
+      [95] aload v6
+      [97] ldc #13
         + String [isExpanded]
-      [93] invokevirtual #86
+      [99] invokevirtual #86
         + Methodref [com/a/a/e.containsKey (Ljava/lang/Object;)Z]
-      [96] ifeq +60 (target=156)
-      [99] aload v6
-      [101] ldc #13
+      [102] ifeq +60 (target=162)
+      [105] aload v6
+      [107] ldc #13
         + String [isExpanded]
-      [103] invokevirtual #87
+      [109] invokevirtual #87
         + Methodref [com/a/a/e.d (Ljava/lang/String;)Ljava/lang/Integer;]
-      [106] invokevirtual #124
+      [112] invokevirtual #125
         + Methodref [java/lang/Integer.intValue ()I]
-      [109] iconst_1
-      [110] ificmpne +46 (target=156)
-      [113] aload v6
-      [115] ldc #13
+      [115] iconst_1
+      [116] ificmpne +46 (target=162)
+      [119] aload v6
+      [121] ldc #13
         + String [isExpanded]
-      [117] iconst_0
-      [118] invokestatic #126
+      [123] iconst_0
+      [124] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
-      [121] invokevirtual #85
+      [127] invokevirtual #85
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
-      [124] pop
-      [125] aload v8
-      [127] aload v6
-      [129] ldc #17
+      [130] pop
+      [131] aload v8
+      [133] aload v6
+      [135] ldc #17
         + String [thumbnailSpanned]
-      [131] invokevirtual #88
+      [137] invokevirtual #88
         + Methodref [com/a/a/e.get (Ljava/lang/Object;)Ljava/lang/Object;]
-      [134] checkcast #27
+      [140] checkcast #27
         + Class [android/text/Spanned]
-      [137] invokevirtual #80
+      [143] invokevirtual #80
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [140] aload v7
-      [142] invokevirtual #112
+      [146] aload v7
+      [148] invokevirtual #113
         + Methodref [com/pediy/bbs/kanxue/widget/ThreadItemFooter.b ()V]
-      [145] aload_0 v0
-      [146] getfield #54
+      [151] aload_0 v0
+      [152] getfield #54
         + Fieldref [com/pediy/bbs/kanxue/ShowThreadPage.a Lcom/pediy/bbs/kanxue/widget/XListView;]
-      [149] iload_3 v3
-      [150] invokevirtual #122
+      [155] iload_3 v3
+      [156] invokevirtual #123
         + Methodref [com/pediy/bbs/kanxue/widget/XListView.setSelection (I)V]
-      [153] goto +63 (target=216)
-      [156] aload v6
-      [158] ldc #11
+      [159] goto +63 (target=222)
+      [162] aload v6
+      [164] ldc #11
         + String [expandSpanned]
-      [160] invokevirtual #86
+      [166] invokevirtual #86
         + Methodref [com/a/a/e.containsKey (Ljava/lang/Object;)Z]
-      [163] ifeq +38 (target=201)
-      [166] aload v6
-      [168] ldc #13
+      [169] ifeq +38 (target=207)
+      [172] aload v6
+      [174] ldc #13
         + String [isExpanded]
-      [170] iconst_1
-      [171] invokestatic #126
+      [176] iconst_1
+      [177] invokestatic #127
         + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
-      [174] invokevirtual #85
+      [180] invokevirtual #85
         + Methodref [com/a/a/e.a (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;]
-      [177] pop
-      [178] aload v8
-      [180] aload v6
-      [182] ldc #11
+      [183] pop
+      [184] aload v8
+      [186] aload v6
+      [188] ldc #11
         + String [expandSpanned]
-      [184] invokevirtual #88
+      [190] invokevirtual #88
         + Methodref [com/a/a/e.get (Ljava/lang/Object;)Ljava/lang/Object;]
-      [187] checkcast #27
+      [193] checkcast #27
         + Class [android/text/Spanned]
-      [190] invokevirtual #80
+      [196] invokevirtual #80
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [193] aload v7
-      [195] invokevirtual #111
+      [199] aload v7
+      [201] invokevirtual #112
         + Methodref [com/pediy/bbs/kanxue/widget/ThreadItemFooter.a ()V]
-      [198] goto +18 (target=216)
-      [201] aload v7
-      [203] invokevirtual #113
+      [204] goto +18 (target=222)
+      [207] aload v7
+      [209] invokevirtual #114
         + Methodref [com/pediy/bbs/kanxue/widget/ThreadItemFooter.c ()V]
-      [206] invokestatic #96
+      [212] invokestatic #97
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
-      [209] iload v9
-      [211] aload v10
-      [213] invokevirtual #97
+      [215] iload v9
+      [217] aload v10
+      [219] invokevirtual #98
         + Methodref [com/pediy/bbs/kanxue/a/a.a (ILcom/pediy/bbs/kanxue/a/e;)V]
-      [216] return
+      [222] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 5):
-        - [27] Var: ...[a:com/a/a/e], Stack: (empty)
-        - [47] Var: ...[a:com/pediy/bbs/kanxue/widget/ThreadItemFooter], Stack: (empty)
-        - [156] Var: ...[a:android/widget/TextView][i][a:com/pediy/bbs/kanxue/a/e], Stack: (empty)
-        - [201] Var: ..., Stack: (empty)
-        - [216] Var: ..., Stack: (empty)
+      + Stack map table attribute (count = 6):
+        - [6] Var: ..., Stack: (empty)
+        - [33] Var: ...[a:com/a/a/e], Stack: (empty)
+        - [53] Var: ...[a:com/pediy/bbs/kanxue/widget/ThreadItemFooter], Stack: (empty)
+        - [162] Var: ...[a:android/widget/TextView][i][a:com/pediy/bbs/kanxue/a/e], Stack: (empty)
+        - [207] Var: ..., Stack: (empty)
+        - [222] Var: ..., Stack: (empty)
   + Method:       a(I)V
     Access flags: 0x2
       = private void a(int)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 21, locals = 2, stack = 7):
-      [0] invokestatic #96
+      [0] invokestatic #97
         + Methodref [com/pediy/bbs/kanxue/a/a.a ()Lcom/pediy/bbs/kanxue/a/a;]
       [3] aload_0 v0
       [4] getfield #58
@@ -73274,9 +73305,9 @@ Methods (count = 27):
       [11] dup
       [12] aload_0 v0
       [13] iload_1 v1
-      [14] invokespecial #107
+      [14] invokespecial #108
         + Methodref [com/pediy/bbs/kanxue/as.<init> (Lcom/pediy/bbs/kanxue/ShowThreadPage;I)V]
-      [17] invokevirtual #99
+      [17] invokevirtual #100
         + Methodref [com/pediy/bbs/kanxue/a/a.b (IILcom/pediy/bbs/kanxue/a/e;)V]
       [20] return
       Code attribute exceptions (count = 0):
@@ -77222,7 +77253,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 274):
+Constant Pool (count = 287):
   + String []
   + String [#]
   + String [&]
@@ -77275,10 +77306,12 @@ Constant Pool (count = 274):
   + String [vb_login_username]
   + Class [android/content/SharedPreferences]
   + Class [android/content/SharedPreferences$Editor]
+  + Class [android/preference/PreferenceManager]
   + Class [com/pediy/bbs/kanxue/a/a]
   + Class [com/pediy/bbs/kanxue/a/b]
   + Class [com/pediy/bbs/kanxue/a/c]
   + Class [com/pediy/bbs/kanxue/b/a]
+  + Class [com/pediy/bbs/kanxue/b/b]
   + Class [com/pediy/bbs/kanxue/b/c]
   + Class [java/lang/Object]
   + Class [java/lang/String]
@@ -77289,6 +77322,7 @@ Constant Pool (count = 274):
   + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
   + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
   + Fieldref [com/pediy/bbs/kanxue/a/c.b I]
+  + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + Methodref [com/pediy/bbs/kanxue/a/a.<init> ()V]
   + Methodref [com/pediy/bbs/kanxue/a/a.b (ILjava/lang/String;Ljava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)Lcom/pediy/bbs/kanxue/a/c;]
   + Methodref [com/pediy/bbs/kanxue/a/a.b (Ljava/lang/String;)Ljava/lang/String;]
@@ -77299,9 +77333,11 @@ Constant Pool (count = 274):
   + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
   + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
   + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
+  + Methodref [com/pediy/bbs/kanxue/b/a.<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
   + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
   + Methodref [com/pediy/bbs/kanxue/b/a.a (Ljava/lang/String;)Z]
   + Methodref [com/pediy/bbs/kanxue/b/a.b ()V]
+  + Methodref [com/pediy/bbs/kanxue/b/b.<init> (Landroid/content/SharedPreferences;)V]
   + Methodref [com/pediy/bbs/kanxue/b/c.b (Ljava/lang/String;)Ljava/lang/String;]
   + Methodref [java/lang/Object.<init> ()V]
   + Methodref [java/lang/String.charAt (I)C]
@@ -77326,7 +77362,9 @@ Constant Pool (count = 274):
   + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
   + InterfaceMethodref [android/content/SharedPreferences$Editor.remove (Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
   + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/SharedPreferences;)V]
   + NameAndType [<init> (Lcom/pediy/bbs/kanxue/a/a;)V]
+  + NameAndType [<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
   + NameAndType [a ()Ljava/lang/String;]
@@ -77352,6 +77390,7 @@ Constant Pool (count = 274):
   + NameAndType [commit ()Z]
   + NameAndType [d Landroid/content/SharedPreferences;]
   + NameAndType [edit ()Landroid/content/SharedPreferences$Editor;]
+  + NameAndType [getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
   + NameAndType [getInt (Ljava/lang/String;I)I]
   + NameAndType [getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
   + NameAndType [i ()V]
@@ -77392,11 +77431,13 @@ Constant Pool (count = 274):
   + Utf8 [(ILjava/lang/String;Ljava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)V]
   + Utf8 [(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)V]
   + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(Landroid/content/Context;)Landroid/content/SharedPreferences;]
+  + Utf8 [(Landroid/content/Context;)V]
   + Utf8 [(Landroid/content/SharedPreferences;)V]
   + Utf8 [(Lcom/pediy/bbs/kanxue/a/a;)V]
   + Utf8 [(Lcom/pediy/bbs/kanxue/a/a;Ljava/lang/String;)V]
   + Utf8 [(Lcom/pediy/bbs/kanxue/a/e;)V]
-  + Utf8 [(Lcom/pediy/bbs/kanxue/b/a;)V]
+  + Utf8 [(Lcom/pediy/bbs/kanxue/b/b;)V]
   + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
   + Utf8 [(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
@@ -77428,6 +77469,7 @@ Constant Pool (count = 274):
   + Utf8 [a]
   + Utf8 [android/content/SharedPreferences]
   + Utf8 [android/content/SharedPreferences$Editor]
+  + Utf8 [android/preference/PreferenceManager]
   + Utf8 [append]
   + Utf8 [b]
   + Utf8 [bbsessionhash]
@@ -77438,6 +77480,7 @@ Constant Pool (count = 274):
   + Utf8 [com/pediy/bbs/kanxue/a/b]
   + Utf8 [com/pediy/bbs/kanxue/a/c]
   + Utf8 [com/pediy/bbs/kanxue/b/a]
+  + Utf8 [com/pediy/bbs/kanxue/b/b]
   + Utf8 [com/pediy/bbs/kanxue/b/c]
   + Utf8 [commit]
   + Utf8 [cookieuser]
@@ -77450,6 +77493,7 @@ Constant Pool (count = 274):
   + Utf8 [f]
   + Utf8 [fromquickreply]
   + Utf8 [g]
+  + Utf8 [getDefaultSharedPreferences]
   + Utf8 [getInt]
   + Utf8 [getString]
   + Utf8 [guest]
@@ -77511,14 +77555,14 @@ Fields (count = 4):
     Access flags: 0x2
       = private android.content.SharedPreferences d
 
-Methods (count = 33):
+Methods (count = 32):
   - Method:       <clinit>()V
     Access flags: 0x8
       = static void <clinit>()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 0, stack = 1):
       [0] aconst_null
-      [1] putstatic #61
+      [1] putstatic #63
         + Fieldref [com/pediy/bbs/kanxue/a/a.a Lcom/pediy/bbs/kanxue/a/a;]
       [4] return
       Code attribute exceptions (count = 0):
@@ -77529,20 +77573,20 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 21, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] invokespecial #81
+      [1] invokespecial #86
         + Methodref [java/lang/Object.<init> ()V]
       [4] aload_0 v0
       [5] ldc #19
         + String [guest]
-      [7] putfield #62
+      [7] putfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
       [10] aload_0 v0
       [11] aconst_null
-      [12] putfield #63
+      [12] putfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
       [15] aload_0 v0
       [16] aconst_null
-      [17] putfield #64
+      [17] putfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
       [20] return
       Code attribute exceptions (count = 0):
@@ -77552,45 +77596,68 @@ Methods (count = 33):
       = public static com.pediy.bbs.kanxue.a.a a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 20, locals = 0, stack = 2):
-      [0] getstatic #61
+      [0] getstatic #63
         + Fieldref [com/pediy/bbs/kanxue/a/a.a Lcom/pediy/bbs/kanxue/a/a;]
       [3] ifnonnull +13 (target=16)
-      [6] new #53
+      [6] new #54
         + Class [com/pediy/bbs/kanxue/a/a]
       [9] dup
-      [10] invokespecial #67
+      [10] invokespecial #70
         + Methodref [com/pediy/bbs/kanxue/a/a.<init> ()V]
-      [13] putstatic #61
+      [13] putstatic #63
         + Fieldref [com/pediy/bbs/kanxue/a/a.a Lcom/pediy/bbs/kanxue/a/a;]
-      [16] getstatic #61
+      [16] getstatic #63
         + Fieldref [com/pediy/bbs/kanxue/a/a.a Lcom/pediy/bbs/kanxue/a/a;]
       [19] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 1):
         - [16] Var: ..., Stack: (empty)
-  + Method:       a(Lcom/pediy/bbs/kanxue/b/a;)V
+  + Method:       a(Landroid/content/Context;)V
     Access flags: 0x1
-      = public void a(com.pediy.bbs.kanxue.b.a)
+      = public void a(android.content.Context)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] putfield #63
-        + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
+    + Code attribute instructions (code length = 40, locals = 2, stack = 6):
+      [0] aload_1 v1
+      [1] ifnonnull +4 (target=5)
+      [4] return
       [5] aload_0 v0
-      [6] invokespecial #71
+      [6] aload_1 v1
+      [7] invokestatic #69
+        + Methodref [android/preference/PreferenceManager.getDefaultSharedPreferences (Landroid/content/Context;)Landroid/content/SharedPreferences;]
+      [10] putfield #66
+        + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
+      [13] aload_0 v0
+      [14] new #57
+        + Class [com/pediy/bbs/kanxue/b/a]
+      [17] dup
+      [18] new #58
+        + Class [com/pediy/bbs/kanxue/b/b]
+      [21] dup
+      [22] aload_0 v0
+      [23] getfield #66
+        + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
+      [26] invokespecial #84
+        + Methodref [com/pediy/bbs/kanxue/b/b.<init> (Landroid/content/SharedPreferences;)V]
+      [29] invokespecial #80
+        + Methodref [com/pediy/bbs/kanxue/b/a.<init> (Lcom/pediy/bbs/kanxue/b/b;)V]
+      [32] putfield #65
+        + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
+      [35] aload_0 v0
+      [36] invokespecial #74
         + Methodref [com/pediy/bbs/kanxue/a/a.i ()V]
-      [9] return
+      [39] return
       Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [5] Var: ..., Stack: (empty)
   + Method:       b()Lcom/pediy/bbs/kanxue/b/a;
     Access flags: 0x1
       = public com.pediy.bbs.kanxue.b.a b()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #63
+      [1] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
       [4] areturn
       Code attribute exceptions (count = 0):
@@ -77603,35 +77670,35 @@ Methods (count = 33):
       [0] ldc #23
         + String [http://bbs.pediy.com/getsecuritytoken.php?styleid=12]
       [2] astore_1 v1
-      [3] new #55
+      [3] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [6] dup
       [7] aload_1 v1
-      [8] getstatic #65
+      [8] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
-      [11] new #54
+      [11] new #55
         + Class [com/pediy/bbs/kanxue/a/b]
       [14] dup
       [15] aload_0 v0
-      [16] invokespecial #72
+      [16] invokespecial #75
         + Methodref [com/pediy/bbs/kanxue/a/b.<init> (Lcom/pediy/bbs/kanxue/a/a;)V]
-      [19] invokespecial #73
+      [19] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [22] astore_2 v2
       [23] aload_0 v0
-      [24] invokevirtual #70
+      [24] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [27] ifeq +14 (target=41)
       [30] aload_2 v2
       [31] aload_0 v0
-      [32] getfield #63
+      [32] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [35] invokevirtual #77
+      [35] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [38] invokevirtual #75
+      [38] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [41] aload_2 v2
-      [42] invokevirtual #74
+      [42] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [45] return
       Code attribute exceptions (count = 0):
@@ -77648,36 +77715,24 @@ Methods (count = 33):
       [4] return
       [5] aload_0 v0
       [6] aload_1 v1
-      [7] putfield #62
+      [7] putfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
       [10] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 1):
         - [5] Var: ..., Stack: (empty)
-  + Method:       a(Landroid/content/SharedPreferences;)V
-    Access flags: 0x1
-      = public void a(android.content.SharedPreferences)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
-      [0] aload_0 v0
-      [1] aload_1 v1
-      [2] putfield #64
-        + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
-      [5] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
   + Method:       c()Z
     Access flags: 0x1
       = public boolean c()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 1, stack = 2):
       [0] aload_0 v0
-      [1] getfield #63
+      [1] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
       [4] ldc #12
         + String [bbsessionhash]
-      [6] invokevirtual #78
+      [6] invokevirtual #82
         + Methodref [com/pediy/bbs/kanxue/b/a.a (Ljava/lang/String;)Z]
       [9] ireturn
       Code attribute exceptions (count = 0):
@@ -77690,30 +77745,30 @@ Methods (count = 33):
       [0] ldc #25
         + String [http://bbs.pediy.com/index.php?styleid=12]
       [2] astore_2 v2
-      [3] new #55
+      [3] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [6] dup
       [7] aload_2 v2
-      [8] getstatic #65
+      [8] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [11] aload_1 v1
-      [12] invokespecial #73
+      [12] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [15] astore_3 v3
       [16] aload_0 v0
-      [17] invokevirtual #70
+      [17] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [20] ifeq +14 (target=34)
       [23] aload_3 v3
       [24] aload_0 v0
-      [25] getfield #63
+      [25] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [28] invokevirtual #77
+      [28] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [31] invokevirtual #75
+      [31] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [34] aload_3 v3
-      [35] invokevirtual #74
+      [35] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [38] return
       Code attribute exceptions (count = 0):
@@ -77725,54 +77780,54 @@ Methods (count = 33):
       = public void a(int,int,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 72, locals = 6, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #22
         + String [http://bbs.pediy.com/forumdisplay.php?styleid=12&f=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #6
         + String [&page=]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] iload_2 v2
-      [19] invokevirtual #92
+      [19] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [22] ldc #5
         + String [&order=desc]
-      [24] invokevirtual #94
+      [24] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [27] invokevirtual #95
+      [27] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [30] astore v4
-      [32] new #55
+      [32] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [35] dup
       [36] aload v4
-      [38] getstatic #65
+      [38] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [41] aload_3 v3
-      [42] invokespecial #73
+      [42] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [45] astore v5
       [47] aload_0 v0
-      [48] invokevirtual #70
+      [48] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [51] ifeq +15 (target=66)
       [54] aload v5
       [56] aload_0 v0
-      [57] getfield #63
+      [57] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [60] invokevirtual #77
+      [60] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [63] invokevirtual #75
+      [63] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [66] aload v5
-      [68] invokevirtual #74
+      [68] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [71] return
       Code attribute exceptions (count = 0):
@@ -77784,50 +77839,50 @@ Methods (count = 33):
       = public void b(int,int,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 67, locals = 6, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #33
         + String [http://bbs.pediy.com/showthread.php?styleid=12&t=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #6
         + String [&page=]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] iload_2 v2
-      [19] invokevirtual #92
+      [19] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [22] invokevirtual #95
+      [22] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [25] astore v4
-      [27] new #55
+      [27] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [30] dup
       [31] aload v4
-      [33] getstatic #65
+      [33] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [36] aload_3 v3
-      [37] invokespecial #73
+      [37] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [40] astore v5
       [42] aload_0 v0
-      [43] invokevirtual #70
+      [43] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [46] ifeq +15 (target=61)
       [49] aload v5
       [51] aload_0 v0
-      [52] getfield #63
+      [52] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [55] invokevirtual #77
+      [55] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [58] invokevirtual #75
+      [58] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [61] aload v5
-      [63] invokevirtual #74
+      [63] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [66] return
       Code attribute exceptions (count = 0):
@@ -77839,43 +77894,43 @@ Methods (count = 33):
       = public void a(int,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 56, locals = 5, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #32
         + String [http://bbs.pediy.com/showpost.php?styleid=12&p=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [13] invokevirtual #95
+      [13] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [16] astore_3 v3
-      [17] new #55
+      [17] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [20] dup
       [21] aload_3 v3
-      [22] getstatic #65
+      [22] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [25] aload_2 v2
-      [26] invokespecial #73
+      [26] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [29] astore v4
       [31] aload_0 v0
-      [32] invokevirtual #70
+      [32] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [35] ifeq +15 (target=50)
       [38] aload v4
       [40] aload_0 v0
-      [41] getfield #63
+      [41] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [44] invokevirtual #77
+      [44] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [47] invokevirtual #75
+      [47] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [50] aload v4
-      [52] invokevirtual #74
+      [52] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [55] return
       Code attribute exceptions (count = 0):
@@ -77890,21 +77945,21 @@ Methods (count = 33):
       [0] ldc #26
         + String [http://bbs.pediy.com/login.php?do=login&styleid=12]
       [2] astore v4
-      [4] new #55
+      [4] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [7] dup
       [8] aload v4
-      [10] getstatic #66
+      [10] getstatic #68
         + Fieldref [com/pediy/bbs/kanxue/a/c.b I]
       [13] aload_3 v3
-      [14] invokespecial #73
+      [14] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [17] astore v5
       [19] aload v5
       [21] ldc #50
         + String [vb_login_username]
       [23] aload_1 v1
-      [24] invokevirtual #76
+      [24] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [27] pop
       [28] aload v5
@@ -77912,7 +77967,7 @@ Methods (count = 33):
         + String [do]
       [32] ldc #36
         + String [login]
-      [34] invokevirtual #76
+      [34] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [37] pop
       [38] aload v5
@@ -77920,7 +77975,7 @@ Methods (count = 33):
         + String [cookieuser]
       [42] ldc #10
         + String [1]
-      [44] invokevirtual #76
+      [44] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [47] pop
       [48] aload v5
@@ -77928,7 +77983,7 @@ Methods (count = 33):
         + String [securitytoken]
       [52] ldc #19
         + String [guest]
-      [54] invokevirtual #76
+      [54] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [57] pop
       [58] aload v5
@@ -77936,28 +77991,28 @@ Methods (count = 33):
         + String [vb_login_md5password]
       [62] aload_0 v0
       [63] aload_2 v2
-      [64] invokevirtual #85
+      [64] invokevirtual #90
         + Methodref [java/lang/String.trim ()Ljava/lang/String;]
-      [67] invokespecial #69
+      [67] invokespecial #72
         + Methodref [com/pediy/bbs/kanxue/a/a.b (Ljava/lang/String;)Ljava/lang/String;]
-      [70] invokestatic #80
+      [70] invokestatic #85
         + Methodref [com/pediy/bbs/kanxue/b/c.b (Ljava/lang/String;)Ljava/lang/String;]
-      [73] invokevirtual #76
+      [73] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [76] pop
       [77] aload v5
       [79] ldc #49
         + String [vb_login_md5password_utf]
       [81] aload_2 v2
-      [82] invokevirtual #85
+      [82] invokevirtual #90
         + Methodref [java/lang/String.trim ()Ljava/lang/String;]
-      [85] invokestatic #80
+      [85] invokestatic #85
         + Methodref [com/pediy/bbs/kanxue/b/c.b (Ljava/lang/String;)Ljava/lang/String;]
-      [88] invokevirtual #76
+      [88] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [91] pop
       [92] aload v5
-      [94] invokevirtual #74
+      [94] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [97] return
       Code attribute exceptions (count = 0):
@@ -77971,41 +78026,41 @@ Methods (count = 33):
       [1] ifnonnull +4 (target=5)
       [4] return
       [5] aload_0 v0
-      [6] getfield #64
+      [6] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
-      [9] invokeinterface #96
+      [9] invokeinterface #101
         + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
       [14] astore v5
       [16] aload v5
       [18] ldc #47
         + String [username]
       [20] aload_1 v1
-      [21] invokeinterface #101
+      [21] invokeinterface #106
         + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
       [26] pop
       [27] aload v5
       [29] ldc #46
         + String [userid]
       [31] iload_2 v2
-      [32] invokeinterface #100
+      [32] invokeinterface #105
         + InterfaceMethodref [android/content/SharedPreferences$Editor.putInt (Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
       [37] pop
       [38] aload v5
       [40] ldc #35
         + String [isavatar]
       [42] iload_3 v3
-      [43] invokeinterface #100
+      [43] invokeinterface #105
         + InterfaceMethodref [android/content/SharedPreferences$Editor.putInt (Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;]
       [48] pop
       [49] aload v5
       [51] ldc #16
         + String [email]
       [53] aload v4
-      [55] invokeinterface #101
+      [55] invokeinterface #106
         + InterfaceMethodref [android/content/SharedPreferences$Editor.putString (Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
       [60] pop
       [61] aload v5
-      [63] invokeinterface #99
+      [63] invokeinterface #104
         + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
       [68] pop
       [69] return
@@ -78019,12 +78074,12 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #64
+      [1] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
       [4] ldc #47
         + String [username]
       [6] aconst_null
-      [7] invokeinterface #98
+      [7] invokeinterface #103
         + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
       [12] areturn
       Code attribute exceptions (count = 0):
@@ -78035,12 +78090,12 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #64
+      [1] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
       [4] ldc #46
         + String [userid]
       [6] iconst_m1
-      [7] invokeinterface #97
+      [7] invokeinterface #102
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
       [12] ireturn
       Code attribute exceptions (count = 0):
@@ -78051,12 +78106,12 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #64
+      [1] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
       [4] ldc #35
         + String [isavatar]
       [6] iconst_0
-      [7] invokeinterface #97
+      [7] invokeinterface #102
         + InterfaceMethodref [android/content/SharedPreferences.getInt (Ljava/lang/String;I)I]
       [12] ireturn
       Code attribute exceptions (count = 0):
@@ -78067,12 +78122,12 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #64
+      [1] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
       [4] ldc #16
         + String [email]
       [6] aconst_null
-      [7] invokeinterface #98
+      [7] invokeinterface #103
         + InterfaceMethodref [android/content/SharedPreferences.getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;]
       [12] areturn
       Code attribute exceptions (count = 0):
@@ -78083,36 +78138,36 @@ Methods (count = 33):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 52, locals = 2, stack = 2):
       [0] aload_0 v0
-      [1] getfield #63
+      [1] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [4] invokevirtual #79
+      [4] invokevirtual #83
         + Methodref [com/pediy/bbs/kanxue/b/a.b ()V]
       [7] aload_0 v0
-      [8] getfield #64
+      [8] getfield #66
         + Fieldref [com/pediy/bbs/kanxue/a/a.d Landroid/content/SharedPreferences;]
-      [11] invokeinterface #96
+      [11] invokeinterface #101
         + InterfaceMethodref [android/content/SharedPreferences.edit ()Landroid/content/SharedPreferences$Editor;]
       [16] astore_1 v1
       [17] aload_1 v1
       [18] ldc #47
         + String [username]
-      [20] invokeinterface #102
+      [20] invokeinterface #107
         + InterfaceMethodref [android/content/SharedPreferences$Editor.remove (Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
       [25] pop
       [26] aload_1 v1
       [27] ldc #46
         + String [userid]
-      [29] invokeinterface #102
+      [29] invokeinterface #107
         + InterfaceMethodref [android/content/SharedPreferences$Editor.remove (Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
       [34] pop
       [35] aload_1 v1
       [36] ldc #35
         + String [isavatar]
-      [38] invokeinterface #102
+      [38] invokeinterface #107
         + InterfaceMethodref [android/content/SharedPreferences$Editor.remove (Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;]
       [43] pop
       [44] aload_1 v1
-      [45] invokeinterface #99
+      [45] invokeinterface #104
         + InterfaceMethodref [android/content/SharedPreferences$Editor.commit ()Z]
       [50] pop
       [51] return
@@ -78123,39 +78178,39 @@ Methods (count = 33):
       = public void b(com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 46, locals = 3, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #27
         + String [http://bbs.pediy.com/login.php?do=logout&logouthash=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] aload_0 v0
-      [10] getfield #62
+      [10] getfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
-      [13] invokevirtual #94
+      [13] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [16] ldc #3
         + String [&]
-      [18] invokevirtual #94
+      [18] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [21] ldc #43
         + String [styleid=12]
-      [23] invokevirtual #94
+      [23] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [26] invokevirtual #95
+      [26] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [29] astore_2 v2
-      [30] new #55
+      [30] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [33] dup
       [34] aload_2 v2
-      [35] getstatic #65
+      [35] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [38] aload_1 v1
-      [39] invokespecial #73
+      [39] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
-      [42] invokevirtual #74
+      [42] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [45] return
       Code attribute exceptions (count = 0):
@@ -78168,37 +78223,37 @@ Methods (count = 33):
       [0] ldc #29
         + String [http://bbs.pediy.com/newreply.php?styleid=12]
       [2] astore v4
-      [4] new #55
+      [4] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [7] dup
       [8] aload v4
-      [10] getstatic #66
+      [10] getstatic #68
         + Fieldref [com/pediy/bbs/kanxue/a/c.b I]
       [13] aload_3 v3
-      [14] invokespecial #73
+      [14] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [17] astore v5
       [19] aload v5
       [21] ldc #37
         + String [message]
       [23] aload_2 v2
-      [24] invokevirtual #76
+      [24] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [27] pop
       [28] aload v5
       [30] ldc #45
         + String [t]
-      [32] new #60
+      [32] new #62
         + Class [java/lang/StringBuilder]
       [35] dup
       [36] iload_1 v1
-      [37] invokestatic #87
+      [37] invokestatic #92
         + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
-      [40] invokespecial #90
+      [40] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [43] invokevirtual #95
+      [43] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [46] invokevirtual #76
+      [46] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [49] pop
       [50] aload v5
@@ -78206,7 +78261,7 @@ Methods (count = 33):
         + String [fromquickreply]
       [54] ldc #10
         + String [1]
-      [56] invokevirtual #76
+      [56] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [59] pop
       [60] aload v5
@@ -78214,28 +78269,28 @@ Methods (count = 33):
         + String [do]
       [64] ldc #40
         + String [postreply]
-      [66] invokevirtual #76
+      [66] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [69] pop
       [70] aload v5
       [72] ldc #42
         + String [securitytoken]
       [74] aload_0 v0
-      [75] getfield #62
+      [75] getfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
-      [78] invokevirtual #76
+      [78] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [81] pop
       [82] aload v5
       [84] aload_0 v0
-      [85] getfield #63
+      [85] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [88] invokevirtual #77
+      [88] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [91] invokevirtual #75
+      [91] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [94] aload v5
-      [96] invokevirtual #74
+      [96] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [99] return
       Code attribute exceptions (count = 0):
@@ -78250,9 +78305,9 @@ Methods (count = 33):
       [2] aload_2 v2
       [3] aload_3 v3
       [4] aload v4
-      [6] invokespecial #68
+      [6] invokespecial #71
         + Methodref [com/pediy/bbs/kanxue/a/a.b (ILjava/lang/String;Ljava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)Lcom/pediy/bbs/kanxue/a/c;]
-      [9] invokevirtual #74
+      [9] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [12] return
       Code attribute exceptions (count = 0):
@@ -78267,18 +78322,18 @@ Methods (count = 33):
       [2] aload_2 v2
       [3] aload v4
       [5] aload v5
-      [7] invokespecial #68
+      [7] invokespecial #71
         + Methodref [com/pediy/bbs/kanxue/a/a.b (ILjava/lang/String;Ljava/lang/String;Lcom/pediy/bbs/kanxue/a/e;)Lcom/pediy/bbs/kanxue/a/c;]
       [10] astore v6
       [12] aload v6
       [14] ldc #39
         + String [offer_Price]
       [16] aload_3 v3
-      [17] invokevirtual #76
+      [17] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [20] pop
       [21] aload v6
-      [23] invokevirtual #74
+      [23] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [26] return
       Code attribute exceptions (count = 0):
@@ -78288,74 +78343,74 @@ Methods (count = 33):
       = private com.pediy.bbs.kanxue.a.c b(int,java.lang.String,java.lang.String,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 121, locals = 7, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #30
         + String [http://bbs.pediy.com/newthread.php?do=postthread&f=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #3
         + String [&]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] ldc #43
         + String [styleid=12]
-      [20] invokevirtual #94
+      [20] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [23] invokevirtual #95
+      [23] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [26] astore v5
-      [28] new #55
+      [28] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [31] dup
       [32] aload v5
-      [34] getstatic #66
+      [34] getstatic #68
         + Fieldref [com/pediy/bbs/kanxue/a/c.b I]
       [37] aload v4
-      [39] invokespecial #73
+      [39] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [42] astore v6
       [44] aload v6
       [46] ldc #44
         + String [subject]
       [48] aload_2 v2
-      [49] invokevirtual #76
+      [49] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [52] pop
       [53] aload v6
       [55] ldc #37
         + String [message]
       [57] aload_3 v3
-      [58] invokevirtual #76
+      [58] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [61] pop
       [62] aload v6
       [64] ldc #42
         + String [securitytoken]
       [66] aload_0 v0
-      [67] getfield #62
+      [67] getfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
-      [70] invokevirtual #76
+      [70] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [73] pop
       [74] aload v6
       [76] ldc #17
         + String [f]
-      [78] new #60
+      [78] new #62
         + Class [java/lang/StringBuilder]
       [81] dup
-      [82] invokespecial #89
+      [82] invokespecial #94
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [85] iload_1 v1
-      [86] invokevirtual #92
+      [86] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [89] invokevirtual #95
+      [89] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [92] invokevirtual #76
+      [92] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [95] pop
       [96] aload v6
@@ -78363,16 +78418,16 @@ Methods (count = 33):
         + String [do]
       [100] ldc #41
         + String [postthread]
-      [102] invokevirtual #76
+      [102] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [105] pop
       [106] aload v6
       [108] aload_0 v0
-      [109] getfield #63
+      [109] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [112] invokevirtual #77
+      [112] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [115] invokevirtual #75
+      [115] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [118] aload v6
       [120] areturn
@@ -78386,44 +78441,44 @@ Methods (count = 33):
       [0] ldc #31
         + String [http://bbs.pediy.com/sendmessage.php?do=docontactus&styleid=12]
       [2] astore v5
-      [4] new #55
+      [4] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [7] dup
       [8] aload v5
-      [10] getstatic #66
+      [10] getstatic #68
         + Fieldref [com/pediy/bbs/kanxue/a/c.b I]
       [13] aload v4
-      [15] invokespecial #73
+      [15] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [18] astore v6
       [20] aload v6
       [22] ldc #38
         + String [name]
       [24] aload_1 v1
-      [25] invokevirtual #76
+      [25] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [28] pop
       [29] aload v6
       [31] ldc #16
         + String [email]
       [33] aload_2 v2
-      [34] invokevirtual #76
+      [34] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [37] pop
       [38] aload v6
       [40] ldc #37
         + String [message]
       [42] aload_3 v3
-      [43] invokevirtual #76
+      [43] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [46] pop
       [47] aload v6
       [49] ldc #42
         + String [securitytoken]
       [51] aload_0 v0
-      [52] getfield #62
+      [52] getfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
-      [55] invokevirtual #76
+      [55] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [58] pop
       [59] aload v6
@@ -78431,7 +78486,7 @@ Methods (count = 33):
         + String [subject]
       [63] ldc #8
         + String [0]
-      [65] invokevirtual #76
+      [65] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [68] pop
       [69] aload v6
@@ -78439,19 +78494,19 @@ Methods (count = 33):
         + String [do]
       [73] ldc #15
         + String [docontactus]
-      [75] invokevirtual #76
+      [75] invokevirtual #79
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;Ljava/lang/String;)Lcom/pediy/bbs/kanxue/a/c;]
       [78] pop
       [79] aload v6
       [81] aload_0 v0
-      [82] getfield #63
+      [82] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [85] invokevirtual #77
+      [85] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [88] invokevirtual #75
+      [88] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [91] aload v6
-      [93] invokevirtual #74
+      [93] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [96] return
       Code attribute exceptions (count = 0):
@@ -78464,16 +78519,16 @@ Methods (count = 33):
       [0] ldc #28
         + String [http://bbs.pediy.com/mobile/android/appupdate.html]
       [2] astore_2 v2
-      [3] new #55
+      [3] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [6] dup
       [7] aload_2 v2
-      [8] getstatic #65
+      [8] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [11] aload_1 v1
-      [12] invokespecial #73
+      [12] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
-      [15] invokevirtual #74
+      [15] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [18] return
       Code attribute exceptions (count = 0):
@@ -78483,58 +78538,58 @@ Methods (count = 33):
       = public void a(int,long,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 78, locals = 7, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #21
         + String [http://bbs.pediy.com/forumdisplay.php?f=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #4
         + String [&getnewpost=]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] lload_2 v2
-      [19] invokevirtual #93
+      [19] invokevirtual #98
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
       [22] ldc #3
         + String [&]
-      [24] invokevirtual #94
+      [24] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [27] ldc #43
         + String [styleid=12]
-      [29] invokevirtual #94
+      [29] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [32] invokevirtual #95
+      [32] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [35] astore v5
-      [37] new #55
+      [37] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [40] dup
       [41] aload v5
-      [43] getstatic #65
+      [43] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [46] aload v4
-      [48] invokespecial #73
+      [48] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [51] astore v6
       [53] aload_0 v0
-      [54] invokevirtual #70
+      [54] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [57] ifeq +15 (target=72)
       [60] aload v6
       [62] aload_0 v0
-      [63] getfield #63
+      [63] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [66] invokevirtual #77
+      [66] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [69] invokevirtual #75
+      [69] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [72] aload v6
-      [74] invokevirtual #74
+      [74] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [77] return
       Code attribute exceptions (count = 0):
@@ -78546,58 +78601,58 @@ Methods (count = 33):
       = public void b(int,long,com.pediy.bbs.kanxue.a.e)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 78, locals = 7, stack = 5):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #34
         + String [http://bbs.pediy.com/showthread.php?t=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #4
         + String [&getnewpost=]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] lload_2 v2
-      [19] invokevirtual #93
+      [19] invokevirtual #98
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
       [22] ldc #3
         + String [&]
-      [24] invokevirtual #94
+      [24] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [27] ldc #43
         + String [styleid=12]
-      [29] invokevirtual #94
+      [29] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [32] invokevirtual #95
+      [32] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [35] astore v5
-      [37] new #55
+      [37] new #56
         + Class [com/pediy/bbs/kanxue/a/c]
       [40] dup
       [41] aload v5
-      [43] getstatic #65
+      [43] getstatic #67
         + Fieldref [com/pediy/bbs/kanxue/a/c.a I]
       [46] aload v4
-      [48] invokespecial #73
+      [48] invokespecial #76
         + Methodref [com/pediy/bbs/kanxue/a/c.<init> (Ljava/lang/String;ILcom/pediy/bbs/kanxue/a/e;)V]
       [51] astore v6
       [53] aload_0 v0
-      [54] invokevirtual #70
+      [54] invokevirtual #73
         + Methodref [com/pediy/bbs/kanxue/a/a.c ()Z]
       [57] ifeq +15 (target=72)
       [60] aload v6
       [62] aload_0 v0
-      [63] getfield #63
+      [63] getfield #65
         + Fieldref [com/pediy/bbs/kanxue/a/a.c Lcom/pediy/bbs/kanxue/b/a;]
-      [66] invokevirtual #77
+      [66] invokevirtual #81
         + Methodref [com/pediy/bbs/kanxue/b/a.a ()Ljava/lang/String;]
-      [69] invokevirtual #75
+      [69] invokevirtual #78
         + Methodref [com/pediy/bbs/kanxue/a/c.a (Ljava/lang/String;)V]
       [72] aload v6
-      [74] invokevirtual #74
+      [74] invokevirtual #77
         + Methodref [com/pediy/bbs/kanxue/a/c.a ()V]
       [77] return
       Code attribute exceptions (count = 0):
@@ -78609,17 +78664,17 @@ Methods (count = 33):
       = public java.lang.String a(int)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 3):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #24
         + String [http://bbs.pediy.com/image.php?u=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [13] invokevirtual #95
+      [13] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [16] areturn
       Code attribute exceptions (count = 0):
@@ -78629,25 +78684,25 @@ Methods (count = 33):
       = public java.lang.String b(int)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 27, locals = 2, stack = 3):
-      [0] new #60
+      [0] new #62
         + Class [java/lang/StringBuilder]
       [3] dup
       [4] ldc #20
         + String [http://bbs.pediy.com/attachment.php?attachmentid=]
-      [6] invokespecial #90
+      [6] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [9] iload_1 v1
-      [10] invokevirtual #92
+      [10] invokevirtual #97
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [13] ldc #7
         + String [&thumb=1&]
-      [15] invokevirtual #94
+      [15] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [18] ldc #43
         + String [styleid=12]
-      [20] invokevirtual #94
+      [20] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [23] invokevirtual #95
+      [23] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [26] areturn
       Code attribute exceptions (count = 0):
@@ -78665,7 +78720,7 @@ Methods (count = 33):
       [5] goto +188 (target=193)
       [8] aload_1 v1
       [9] iload_3 v3
-      [10] invokevirtual #83
+      [10] invokevirtual #88
         + Methodref [java/lang/String.codePointAt (I)I]
       [13] istore v4
       [15] ldc #1
@@ -78675,7 +78730,7 @@ Methods (count = 33):
       [21] sipush 255
       [24] ificmple +143 (target=167)
       [27] goto +40 (target=67)
-      [30] new #60
+      [30] new #62
         + Class [java/lang/StringBuilder]
       [33] dup
       [34] ldc #9
@@ -78683,16 +78738,16 @@ Methods (count = 33):
       [36] iload v4
       [38] bipush 10
       [40] irem
-      [41] invokevirtual #82
+      [41] invokevirtual #87
         + Methodref [java/lang/String.charAt (I)C]
-      [44] invokestatic #86
+      [44] invokestatic #91
         + Methodref [java/lang/String.valueOf (C)Ljava/lang/String;]
-      [47] invokespecial #90
+      [47] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [50] aload v5
-      [52] invokevirtual #94
+      [52] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [55] invokevirtual #95
+      [55] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [58] astore v5
       [60] iload v4
@@ -78709,83 +78764,83 @@ Methods (count = 33):
       [80] ldc #8
         + String [0]
       [82] astore v5
-      [84] new #60
+      [84] new #62
         + Class [java/lang/StringBuilder]
       [87] dup
       [88] ldc #2
         + String [#]
-      [90] invokespecial #90
+      [90] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [93] aload v5
-      [95] invokevirtual #94
+      [95] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [98] invokevirtual #95
+      [98] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [101] astore v5
-      [103] new #60
+      [103] new #62
         + Class [java/lang/StringBuilder]
       [106] dup
       [107] ldc #3
         + String [&]
-      [109] invokespecial #90
+      [109] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [112] aload v5
-      [114] invokevirtual #94
+      [114] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [117] invokevirtual #95
+      [117] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [120] astore v5
-      [122] new #60
+      [122] new #62
         + Class [java/lang/StringBuilder]
       [125] dup
       [126] aload v5
-      [128] invokestatic #88
+      [128] invokestatic #93
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [131] invokespecial #90
+      [131] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [134] ldc #11
         + String [;]
-      [136] invokevirtual #94
+      [136] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [139] invokevirtual #95
+      [139] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [142] astore v5
-      [144] new #60
+      [144] new #62
         + Class [java/lang/StringBuilder]
       [147] dup
       [148] aload_2 v2
-      [149] invokestatic #88
+      [149] invokestatic #93
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [152] invokespecial #90
+      [152] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [155] aload v5
-      [157] invokevirtual #94
+      [157] invokevirtual #99
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [160] invokevirtual #95
+      [160] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [163] astore_2 v2
       [164] goto +26 (target=190)
-      [167] new #60
+      [167] new #62
         + Class [java/lang/StringBuilder]
       [170] dup
       [171] aload_2 v2
-      [172] invokestatic #88
+      [172] invokestatic #93
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [175] invokespecial #90
+      [175] invokespecial #95
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [178] aload_1 v1
       [179] iload_3 v3
-      [180] invokevirtual #82
+      [180] invokevirtual #87
         + Methodref [java/lang/String.charAt (I)C]
-      [183] invokevirtual #91
+      [183] invokevirtual #96
         + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
-      [186] invokevirtual #95
+      [186] invokevirtual #100
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [189] astore_2 v2
       [190] iinc v3, 1
       [193] iload_3 v3
       [194] aload_1 v1
-      [195] invokevirtual #84
+      [195] invokevirtual #89
         + Methodref [java/lang/String.length ()I]
       [198] ificmplt -190 (target=8)
       [201] aload_2 v2
@@ -78807,7 +78862,7 @@ Methods (count = 33):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] putfield #62
+      [2] putfield #64
         + Fieldref [com/pediy/bbs/kanxue/a/a.b Ljava/lang/String;]
       [5] return
       Code attribute exceptions (count = 0):

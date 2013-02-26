@@ -1014,12 +1014,13 @@ com.pediy.bbs.kanxue.ForumDisplayPage -> com.pediy.bbs.kanxue.ForumDisplayPage:
     void onPageTitleClick(android.view.View) -> onPageTitleClick
     void onNewThreadBtnClick(android.view.View) -> onNewThreadBtnClick
     void refresh() -> d
+    void safeRefresh() -> e
     void onRefreshBtnClick(android.view.View) -> onRefreshBtnClick
     void onRefresh() -> b
     void onLoadMore() -> c
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
     void onActivityResult(int,int,android.content.Intent) -> onActivityResult
-    int getLastTopPostIndex() -> e
+    int getLastTopPostIndex() -> f
     com.pediy.bbs.kanxue.ForumDisplayPage$ForumDisplayAdapter access$0(com.pediy.bbs.kanxue.ForumDisplayPage) -> a
     int access$1(com.pediy.bbs.kanxue.ForumDisplayPage) -> b
     int access$2(com.pediy.bbs.kanxue.ForumDisplayPage) -> c
@@ -1239,6 +1240,7 @@ com.pediy.bbs.kanxue.ShowThreadPage -> com.pediy.bbs.kanxue.ShowThreadPage:
     void onPageTitleClick(android.view.View) -> onPageTitleClick
     void refresh() -> a
     void onReplyBtnClick(android.view.View) -> onReplyBtnClick
+    void safeRefresh() -> d
     void onRefreshBtnClick(android.view.View) -> onRefreshBtnClick
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
     void loadModel(int) -> a
@@ -1326,16 +1328,15 @@ com.pediy.bbs.kanxue.SplashActivity$1 -> com.pediy.bbs.kanxue.aw:
     com.pediy.bbs.kanxue.SplashActivity this$0 -> a
     void run() -> run
 com.pediy.bbs.kanxue.net.Api -> com.pediy.bbs.kanxue.a.a:
-    com.pediy.bbs.kanxue.net.Api m_instance -> a
-    java.lang.String m_token -> b
-    com.pediy.bbs.kanxue.util.CookieStorage m_cookieStorage -> c
-    android.content.SharedPreferences m_preferences -> d
+    com.pediy.bbs.kanxue.net.Api mInstance -> a
+    java.lang.String mToken -> b
+    com.pediy.bbs.kanxue.util.CookieStorage mCookieStorage -> c
+    android.content.SharedPreferences mPreferences -> d
     com.pediy.bbs.kanxue.net.Api getInstance() -> a
-    void setCookieStorage(com.pediy.bbs.kanxue.util.CookieStorage) -> a
+    void setmCon(android.content.Context) -> a
     com.pediy.bbs.kanxue.util.CookieStorage getCookieStorage() -> b
     void getForumToken() -> i
     void setToken(java.lang.String) -> a
-    void setSharedPreferences(android.content.SharedPreferences) -> a
     boolean isLogin() -> c
     void getForumHomePage(com.pediy.bbs.kanxue.net.HttpClientUtil$NetClientCallback) -> a
     void getForumDisplayPage(int,int,com.pediy.bbs.kanxue.net.HttpClientUtil$NetClientCallback) -> a

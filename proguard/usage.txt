@@ -298,15 +298,6 @@ com.pediy.bbs.kanxue.net.Api:
     public static final java.lang.String DOMAIN
     public static final java.lang.String PATH
     public static final java.lang.String STYLE
-    public static final java.lang.String FORUM_HOMEPAGE_FILE
-    public static final java.lang.String FORUM_DISPLAY_FILE
-    public static final java.lang.String FORUM_SHOWTHREAD_FILE
-    public static final java.lang.String FORUM_USER_HEAD_IMAGE_FILE
-    public static final java.lang.String FORUM_SHOW_POST_FILE
-    public static final java.lang.String FORUM_LOGIN_FILE
-    public static final java.lang.String FORUM_NEW_REPLY
-    public static final java.lang.String FORUM_NEW_THREAD
-    public static final java.lang.String ATTACHMENT_FILE
     public static final int LOGIN_SUCCESS
     public static final int LOGIN_FAIL_LESS_THAN_FIVE
     public static final int LOGIN_FAIL_MORE_THAN_FIVE
