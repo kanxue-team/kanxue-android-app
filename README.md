@@ -2,7 +2,6 @@
 # **看雪安全论坛 Android 客户端** #
 
 本项目基于看雪安全论坛开放的接口开发完成。可通过在看雪各页面url后添加styleid=12参数查看各页面返回的JSON数据。项目中采用了一些经过修改的第三方控件，如AmazingListView和XListView。
-看雪开放的api文档地址：http://bbs.pediy.com/showthread.php?t=163280
 
 **源码结构**<br>
 
@@ -24,4 +23,6 @@
 > └ fastjson-1.1.26-android.jar<br>
 
 - fastjson-1.1.26-android.jar — 快速的json数据解析包
+
+看雪开放的api文档地址：http://bbs.pediy.com/showthread.php?t=163280
 
