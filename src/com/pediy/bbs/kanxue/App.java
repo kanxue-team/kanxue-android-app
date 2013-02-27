@@ -174,7 +174,7 @@ public class App extends Application {
 
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								m_updatePd = createUpdateDialog(context, obj.getInteger("size"));
+								m_updatePd = createUpdateDialog(context);
 								Thread updateThread = new Thread(new Runnable() {
 
 									@Override
@@ -211,6 +211,7 @@ public class App extends Application {
 											}
 											
 											if(filelength>0){
+												m_updatePd.setMax(filelength);
 												InputStream input=con.getInputStream();  
 												//读取大文件  
 												byte[] buffer=new byte[4*1024];
@@ -224,7 +225,7 @@ public class App extends Application {
 														m_handler.sendEmptyMessage(-1);
 														break;
 													}else {
-														m_handler.sendEmptyMessage(downlength/1000);
+														m_handler.sendEmptyMessage(downlength);
 													}
 												}
 												fos.flush();
@@ -269,12 +270,11 @@ public class App extends Application {
 		});
 	}
 	
-	private ProgressDialog createUpdateDialog(Context context, int max) {
+	private ProgressDialog createUpdateDialog(Context context) {
 		ProgressDialog updatePd = new ProgressDialog(context);	
 		updatePd.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
 		updatePd.setTitle("提示");
 		updatePd.setMessage("正在更新……");
-		updatePd.setMax(max);
 		updatePd.setIndeterminate(false);
 		updatePd.setCancelable(true);
 		updatePd.setButton("取消", new OnClickListener() {

@@ -920,7 +920,7 @@ com.pediy.bbs.kanxue.App -> com.pediy.bbs.kanxue.App:
     void enableRecordLog() -> b
     void checkUpdate(android.content.Context) -> a
     void checkUpdate(android.content.Context,com.pediy.bbs.kanxue.App$onCheckUpdate) -> a
-    android.app.ProgressDialog createUpdateDialog(android.content.Context,int) -> a
+    android.app.ProgressDialog createUpdateDialog(android.content.Context) -> b
     java.lang.String versionCodeToName(int) -> a
     java.lang.String converToSuitableSize(int) -> b
     android.app.ProgressDialog access$0(com.pediy.bbs.kanxue.App) -> a
@@ -930,7 +930,7 @@ com.pediy.bbs.kanxue.App -> com.pediy.bbs.kanxue.App:
     android.os.Handler access$4(com.pediy.bbs.kanxue.App) -> e
     java.lang.String access$5(com.pediy.bbs.kanxue.App,int) -> a
     java.lang.String access$6(com.pediy.bbs.kanxue.App,int) -> b
-    android.app.ProgressDialog access$7(com.pediy.bbs.kanxue.App,android.content.Context,int) -> a
+    android.app.ProgressDialog access$7(com.pediy.bbs.kanxue.App,android.content.Context) -> a
     void access$8(com.pediy.bbs.kanxue.App,android.app.ProgressDialog) -> a
     void access$9(com.pediy.bbs.kanxue.App,java.lang.String) -> a
     boolean access$10(com.pediy.bbs.kanxue.App) -> f
@@ -956,8 +956,8 @@ com.pediy.bbs.kanxue.App$3$1 -> com.pediy.bbs.kanxue.d:
 com.pediy.bbs.kanxue.App$3$1$1 -> com.pediy.bbs.kanxue.e:
     com.pediy.bbs.kanxue.App$3$1 this$2 -> a
     android.content.Context val$context -> b
-    com.alibaba.fastjson.JSONObject val$obj -> c
-    java.lang.String val$versionName -> d
+    java.lang.String val$versionName -> c
+    com.alibaba.fastjson.JSONObject val$obj -> d
     void onClick(android.content.DialogInterface,int) -> onClick
     com.pediy.bbs.kanxue.App$3$1 access$0(com.pediy.bbs.kanxue.App$3$1$1) -> a
 com.pediy.bbs.kanxue.App$3$1$1$1 -> com.pediy.bbs.kanxue.f:
