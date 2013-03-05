@@ -112,7 +112,7 @@ public class ShowThreadPage extends Activity implements IXListViewListener, OnIt
 					m_listView.setPullLoadEnable(true);
 				}
 				if (m_titleView.getVisibility() == View.GONE) {
-					m_titleView.setText(m_model.getJSONObject(0).getString("title"));
+					m_titleView.setText(Html.fromHtml(m_model.getJSONObject(0).getString("title")));
 					m_titleView.setVisibility(View.VISIBLE);
 				}
 				break;
