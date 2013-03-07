@@ -11,5 +11,7 @@
     <color name="quick_reply_btn_pressed">#E5E5E5</color>
     <color name="gray">#808080</color>
     <color name="transparent">#00000000</color>
-    
+    <color name="canvas">#DEE3E7</color>
+    <color name="deepgray">#636973</color>
+    <color name="red">#B22222</color>
 </resources>

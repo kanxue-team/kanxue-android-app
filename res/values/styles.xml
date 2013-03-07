@@ -1,5 +1,54 @@
 <resources>
-
+	<style name="user_info_text">
+	    <item name="android:textSize">16.0sp</item>
+	    <item name="android:paddingRight">15.0dip</item>
+	    <item name="android:duplicateParentState">true</item>
+	    <item name="android:layout_width">85.0dp</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginLeft">@dimen/user_info_title_marginleft</item>
+	    <item name="android:layout_centerVertical">true</item>    
+	</style>
+		<style name="user_info_about">
+	    <item name="android:textSize">16.0sp</item>
+	    <item name="android:paddingRight">4.0dip</item>
+	    <item name="android:duplicateParentState">true</item>
+	    <item name="android:layout_width">85.0dp</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginLeft">@dimen/user_info_title_marginleft</item>
+	    <item name="android:layout_centerVertical">true</item>    
+	</style>
+	<style name="user_info_me">
+	    <item name="android:textSize">13.0sp</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginLeft">4dp</item>
+	    <item name="android:layout_centerVertical">true</item>    
+	</style>	
+	<style name="user_info_content">
+	    <item name="android:textSize">16.0sp</item>
+	    <item name="android:duplicateParentState">true</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginRight">10dp</item>
+	    <item name="android:layout_centerVertical">true</item>    
+	</style>    <style name="user_info_item">
+        <item name="android:paddingLeft">15.0dp</item>
+        <item name="android:paddingTop">15.0dp</item>
+        <item name="android:paddingBottom">15.0dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+        <style name="user_info_photo_item">
+        <item name="android:paddingLeft">15.0dp</item>
+        <item name="android:paddingTop">2.0dp</item>
+        <item name="android:paddingBottom">2.0dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
     <!--
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.

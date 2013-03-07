@@ -22,6 +22,8 @@
 	            android:layout_width="40dp"
 	            android:layout_height="40dp"
 	            android:scaleType="centerCrop"
+	            android:clickable="true"
+	            android:onClick="onShowUserBtnClick"
 	            android:src="@drawable/default_user_head_img" />
 	
 	        <LinearLayout

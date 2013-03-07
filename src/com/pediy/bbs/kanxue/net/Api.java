@@ -436,4 +436,18 @@ public class Api {
 		}
 		return output;
 	}
+	
+	/**
+	 * 检测指定用户个人信息列表
+	 * @param id		用户id
+	 * @param callback
+	 */
+	public void getUserInfoPage(int id, final NetClientCallback callback){
+		String url = DOMAIN + PATH + "member.php?u=" + id + STYLE;
+		HttpClientUtil hcu = new HttpClientUtil(url, HttpClientUtil.METHOD_GET, callback);
+		if (this.isLogin()) {
+			hcu.addCookie(this.mCookieStorage.getCookies());
+		}
+		hcu.asyncConnect();
+	}
 }
