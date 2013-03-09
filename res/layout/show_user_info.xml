@@ -14,13 +14,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp" >
+            android:layout_centerVertical="true" >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
                 android:background="@drawable/normal_action_btn"
                 android:clickable="true"
                 android:onClick="onBackBtnClick"
@@ -155,7 +153,7 @@
                 <TextView
                     android:id="@+id/peStatistics"
                     style="@style/user_info_text"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="统计" />
 
@@ -235,43 +233,7 @@
                 </RelativeLayout>
                 
             </LinearLayout>
-            <LinearLayout 
-                android:id="@+id/pdConectMe"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:orientation="vertical">
-                
-                <TextView
-                    android:id="@+id/peConectMe"
-                    style="@style/user_info_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="联系方式" />
-                
-                <RelativeLayout
-                    android:id="@+id/pdEmail"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/canvas"
-                    android:clickable="true" >
 
-                    <LinearLayout style="@style/user_info_item" >
-
-                        <TextView
-                            android:id="@+id/peEmail"
-                            style="@style/user_info_text"
-                            android:text="邮箱"
-                            android:textColor="@color/deepgray" />
-
-                        <TextView
-                            android:id="@+id/peEmailConent"
-                            style="@style/user_info_content" />
-                    </LinearLayout>
-                </RelativeLayout>
-
-                
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

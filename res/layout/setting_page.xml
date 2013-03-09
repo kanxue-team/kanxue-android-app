@@ -70,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/normal_item"
                 android:clickable="true"
+                android:onClick="onLoginItemClick"
                 android:padding="10dp" >
 
                 <com.pediy.bbs.kanxue.widget.ImageViewWithCache
@@ -77,7 +78,6 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:scaleType="centerCrop"
-                    android:onClick="onShowMyInfo"
                     android:src="@drawable/default_user_head_img" />
 
                 <TextView
@@ -94,7 +94,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:onClick="onLoginItemClick"
                     android:src="@drawable/social_add_person_dark" />
 
                 <RelativeLayout
