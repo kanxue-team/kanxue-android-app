@@ -35,7 +35,6 @@ public class UserInfoPage extends Activity {
 	private TextView m_MoneyContentView;
 	private TextView m_GoodnessView;
 	private TextView m_GoodnessContentView;
-	private TextView m_EmailContentView;
 	private String m_UserNameContent = null;
 	private String m_UserTitleContent = null;
 	private int m_PostsContent = 0;
@@ -69,8 +68,7 @@ public class UserInfoPage extends Activity {
 					m_PostsContentView.setText(""+m_PostsContent);
 					m_MoneyContentView.setText(""+m_MoneyContent+"   Kx");
 					m_GoodnessContentView.setText(""+m_GoodnessContent);
-					m_EmailContentView.setText(Api.getInstance().getEmail());
-	            	
+	
 	            }
 	            break;
 			case HttpClientUtil.NET_TIMEOUT:
@@ -101,7 +99,6 @@ public class UserInfoPage extends Activity {
 		m_MoneyContentView = (TextView)this.findViewById(R.id.peMoneyConent);
 		m_GoodnessView = (TextView)this.findViewById(R.id.peGoodness);
 		m_GoodnessContentView = (TextView)this.findViewById(R.id.peGoodnessConent);
-		m_EmailContentView =(TextView)this.findViewById(R.id.peEmailConent);
         Bundle bundle = this.getIntent().getExtras();
         
         /*从Bundle中获得所需查看用戶的ID*/
