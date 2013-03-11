@@ -111,6 +111,22 @@ public class SettingPage extends Activity {
 		m_loginIcon.setImageResource(R.drawable.social_add_person_dark);
 	}
 	
+	public void onShowMyInfo(View v) {
+		
+		if (Api.getInstance().isLogin()) {
+    		Bundle data = new Bundle();
+    		data.putInt("user_id",Api.getInstance().getLoginUserId());
+    		Intent intent = new Intent(SettingPage.this, UserInfoPage.class);
+    		intent.putExtras(data);
+    	    v.getContext().startActivity(intent);
+			return;
+		}
+		else {
+			Toast.makeText(SettingPage.this, "提示：请登入后查看用户信息。",
+					Toast.LENGTH_SHORT).show();
+		}
+		
+	}
 	public void onLoginItemClick(View v) {
 		if (!Api.getInstance().isLogin()) {
 			this.startActivityForResult(new Intent(this, LoginPage.class), 0);

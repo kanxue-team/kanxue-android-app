@@ -22,6 +22,7 @@ import com.pediy.bbs.kanxue.widget.XListView.IXListViewListener;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -40,6 +41,7 @@ import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup.MarginLayoutParams;
@@ -48,6 +50,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -425,6 +428,7 @@ public class ShowThreadPage extends Activity implements IXListViewListener, OnIt
 		});
 	}
 	
+	
 	private class ShowthreadAdapter extends BaseAdapter {		
 
 		public ShowthreadAdapter() {
@@ -473,6 +477,26 @@ public class ShowThreadPage extends Activity implements IXListViewListener, OnIt
 			}else {
 				img.setImageResource(R.drawable.default_user_head_img);
 			}
+			
+	        img.setOnClickListener(new View.OnClickListener() {
+	        	@Override
+	        	public void onClick(View v) {
+	        		
+	        		if (Api.getInstance().isLogin()) {
+		        		Bundle data = new Bundle();
+		        		data.putInt("user_id", item.getInteger("userid"));
+		        		Intent intent = new Intent(ShowThreadPage.this, UserInfoPage.class);
+		        		intent.putExtras(data);
+		        	    v.getContext().startActivity(intent);
+	        			return;
+	        		}
+	        		else {
+	        			Toast.makeText(ShowThreadPage.this, "提示：请登入后查看用户信息。",
+	        					Toast.LENGTH_SHORT).show();
+	        		}
+	        	}
+	        }); 
+	        
 			//格式化缩略帖子缩略信息的Runnable
 			Runnable runFormatMessage = new Runnable() {
 
@@ -492,6 +516,7 @@ public class ShowThreadPage extends Activity implements IXListViewListener, OnIt
 				
 			};
 			
+
 			//长文章的点击扩展
 			itemFooter.setVisibility((item.getInteger("thumbnail") == 1)?View.VISIBLE:View.GONE);
 			if (item.containsKey("isExpanded") && item.getInteger("isExpanded") == 1) {

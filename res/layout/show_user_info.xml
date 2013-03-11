@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_header_color" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/normal_action_btn"
+                android:clickable="true"
+                android:onClick="onBackBtnClick"
+                android:padding="10dp"
+                android:src="@drawable/navigation_back" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/segmentation" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="个人资料"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/pdMainInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/pdMainInfoTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/peMainInfo"
+                        style="@style/user_info_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="关于" />
+
+                    <TextView
+                        android:id="@+id/peNameConent"
+                        style="@style/user_info_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="4dp"
+                        android:text="ME"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                
+                <LinearLayout 
+                    android:layout_height="2dp"
+                    android:layout_width="fill_parent"
+                    android:background="@color/white"/>
+                
+                <RelativeLayout
+                    android:id="@+id/pdName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/canvas"
+                    android:clickable="true" >
+
+                    <LinearLayout style="@style/user_info_item" >
+
+                        <TextView
+                            android:id="@+id/peID"
+                            style="@style/user_info_text"
+                            android:text="用户ID"
+                            android:textColor="@color/deepgray" />
+
+                        <TextView
+                            android:id="@+id/peIDConent"
+                            style="@style/user_info_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout 
+                    android:layout_height="2dp"
+                    android:layout_width="fill_parent"
+                    android:background="@color/white"/>
+                <RelativeLayout
+                    android:id="@+id/pdUserTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/canvas"
+                    android:clickable="true" >
+
+                    <LinearLayout style="@style/user_info_item" >
+
+                        <TextView
+                            android:id="@+id/peUserTitle"
+                            style="@style/user_info_text"
+                            android:text="头衔"
+                            android:textColor="@color/deepgray" />
+
+                        <TextView
+                            android:id="@+id/peUserTitleConent"
+                            style="@style/user_info_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pdStatistics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/peStatistics"
+                    style="@style/user_info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="统计" />
+
+                <RelativeLayout
+                    android:id="@+id/pdPosts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/canvas"
+                    android:clickable="true" >
+
+                    <LinearLayout style="@style/user_info_item" >
+
+                        <TextView
+                            android:id="@+id/pePosts"
+                            style="@style/user_info_text"
+                            android:text="发帖数"
+                            android:textColor="@color/deepgray" />
+
+                        <TextView
+                            android:id="@+id/pePostsConent"
+                            style="@style/user_info_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+                
+                <LinearLayout 
+                    android:layout_height="2dp"
+                    android:layout_width="fill_parent"
+                    android:background="@color/white"/>
+
+              <RelativeLayout
+                    android:id="@+id/pdGoodness"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/canvas"
+                    android:clickable="true" >
+
+                    <LinearLayout style="@style/user_info_item" >
+
+                        <TextView
+                            android:id="@+id/peGoodness"
+                            style="@style/user_info_text"
+                            android:text="精华帖"
+                            android:textColor="@color/deepgray" />
+
+                        <TextView
+                            android:id="@+id/peGoodnessConent"
+                            android:textColor="@color/red"
+                            style="@style/user_info_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+                
+                
+                <LinearLayout 
+                    android:layout_height="2dp"
+                    android:layout_width="fill_parent"
+                    android:background="@color/white"/>
+
+			<RelativeLayout
+                    android:id="@+id/pdMoneny"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/canvas"
+                    android:clickable="true" >
+
+                    <LinearLayout style="@style/user_info_item" >
+
+                        <TextView
+                            android:id="@+id/peMoneny"
+                            style="@style/user_info_text"
+                            android:text="现金"
+                            android:textColor="@color/deepgray" />
+
+                        <TextView
+                            android:id="@+id/peMoneyConent"
+                            style="@style/user_info_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

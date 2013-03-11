@@ -34,6 +34,7 @@
         <activity android:name="NewThreadPage" android:screenOrientation="portrait"></activity>
         <activity android:name="SettingPage" android:screenOrientation="portrait"></activity>
         <activity android:name="FeedbackPage" android:screenOrientation="portrait"></activity>
+        <activity android:name="UserInfoPage" android:screenOrientation="portrait"></activity>
         <activity android:screenOrientation="portrait" android:name="AboutPage"></activity>
     </application>
 
