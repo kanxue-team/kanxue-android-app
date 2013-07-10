@@ -3,16 +3,15 @@
 #################
 
 *.pydevproject
-.project
 .metadata
 bin/
+gen/
 tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
-.classpath
 .settings/
 .loadpath
 
