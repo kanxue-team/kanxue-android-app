@@ -26,6 +26,7 @@
     <string name="new_post_fail_within_thirty_seconds">禁止三十秒内连续发帖</string>
     <string name="new_post_fail_within_five_minutes">禁止五分钟内发相同贴</string>
     <string name="new_post_fail_not_enough_kx">现金不足, 无法发出高于现金数额的悬赏</string>
+    <string name="about_message">这么多年来，在看雪学到许多知识，非常感谢看雪！一直希望能为看雪做点贡献，看到论坛准备开发Android产品，就希望能参加。刚好自己有些论坛app开发经验，在得到kanxue支持下，写了一个论坛客户端，希望大家喜欢。\n更新历史\nV1.0 fanhexin首次开发\nV1.1 沙加L负责维护\n</string>
     <string-array name="topic_list">
         <item >选择话题</item>
         <item >【求助】</item>
