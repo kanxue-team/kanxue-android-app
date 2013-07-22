@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="v1.0.0 Beta"
+            android:text="v1.1"
             android:textColor="@color/white" />
 
     </LinearLayout>

@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="        这么多年来，在看雪学到许多知识，非常感谢看雪！一直希望能为看雪做点贡献，看到论坛准备开发Android产品，就希望能参加。刚好自己有些论坛app开发经验，在得到kanxue支持下，写了一个论坛客户端，希望大家喜欢。" />
+                android:text="@string/about_message"/>
 
             <LinearLayout
                 android:layout_width="fill_parent"

@@ -19,12 +19,18 @@ package android.util;
 import java.io.IOException;
 
 /**
- * This exception is thrown by {@link Base64InputStream} or {@link Base64OutputStream}
- * when an error is detected in the data being decoded.  This allows problems with the base64 data
- * to be disambiguated from errors in the underlying streams (e.g. actual connection errors.)
+ * This exception is thrown by {@link Base64InputStream} or
+ * {@link Base64OutputStream} when an error is detected in the data being
+ * decoded. This allows problems with the base64 data to be disambiguated from
+ * errors in the underlying streams (e.g. actual connection errors.)
  */
 public class Base64DataException extends IOException {
-    public Base64DataException(String detailMessage) {
-        super(detailMessage);
-    }
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Base64DataException(String detailMessage) {
+		super(detailMessage);
+	}
 }
